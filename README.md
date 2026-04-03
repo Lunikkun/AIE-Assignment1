@@ -35,9 +35,9 @@ python cocreation_loop1.py
 
 python report_metrics.py
 
-### Step 3: Create table
+### Step 3: Create table and graphs
 
 python generate_results_tables.py
 
-
+python generate_report_assets.py
 
