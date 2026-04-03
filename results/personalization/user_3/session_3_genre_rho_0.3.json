@@ -10,60 +10,60 @@
                 {
                     "item_id": 963,
                     "title": "Some Folks Call It a Sling Blade (1993)",
-                    "personalized_score": 0.7935945664513127
+                    "personalized_score": 0.8105102066375394
                 },
                 {
                     "item_id": 98,
                     "title": "Silence of the Lambs, The (1991)",
-                    "personalized_score": 0.7935945664513127
+                    "personalized_score": 0.8105102066375394
                 },
                 {
                     "item_id": 223,
                     "title": "Sling Blade (1996)",
-                    "personalized_score": 0.7935945664513127
-                },
-                {
-                    "item_id": 315,
-                    "title": "Apt Pupil (1998)",
-                    "personalized_score": 0.7935945664513127
+                    "personalized_score": 0.8105102066375394
                 },
                 {
                     "item_id": 23,
                     "title": "Taxi Driver (1976)",
-                    "personalized_score": 0.7935945664513127
+                    "personalized_score": 0.8105102066375394
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.8105102066375394
+                },
+                {
+                    "item_id": 316,
+                    "title": "As Good As It Gets (1997)",
+                    "personalized_score": 0.7248454563055722
+                },
+                {
+                    "item_id": 45,
+                    "title": "Eat Drink Man Woman (1994)",
+                    "personalized_score": 0.7248454563055722
+                },
+                {
+                    "item_id": 522,
+                    "title": "Down by Law (1986)",
+                    "personalized_score": 0.7248454563055722
+                },
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.6899164885048523
                 },
                 {
                     "item_id": 64,
                     "title": "Shawshank Redemption, The (1994)",
-                    "personalized_score": 0.7661699194058826
-                },
-                {
-                    "item_id": 357,
-                    "title": "One Flew Over the Cuckoo's Nest (1975)",
-                    "personalized_score": 0.7661699194058826
-                },
-                {
-                    "item_id": 427,
-                    "title": "To Kill a Mockingbird (1962)",
-                    "personalized_score": 0.7661699194058826
-                },
-                {
-                    "item_id": 134,
-                    "title": "Citizen Kane (1941)",
-                    "personalized_score": 0.7661699194058826
-                },
-                {
-                    "item_id": 272,
-                    "title": "Good Will Hunting (1997)",
-                    "personalized_score": 0.7661699194058826
+                    "personalized_score": 0.6838726381298619
                 }
             ],
             "picked_item": {
                 "item_id": 963,
                 "title": "Some Folks Call It a Sling Blade (1993)",
-                "score_at_pick": 0.7935945664513127
+                "score_at_pick": 0.8105102066375394
             },
-            "state_drift_l2": 0.1918858832058614
+            "state_drift_l2": 0.18393630263493546
         },
         {
             "round": 2,
@@ -71,60 +71,60 @@
                 {
                     "item_id": 963,
                     "title": "Some Folks Call It a Sling Blade (1993)",
-                    "personalized_score": 0.8951981924410456
+                    "personalized_score": 0.9040787982397702
                 },
                 {
                     "item_id": 98,
                     "title": "Silence of the Lambs, The (1991)",
-                    "personalized_score": 0.8951981924410456
+                    "personalized_score": 0.9040787982397702
                 },
                 {
                     "item_id": 223,
                     "title": "Sling Blade (1996)",
-                    "personalized_score": 0.8951981924410456
-                },
-                {
-                    "item_id": 315,
-                    "title": "Apt Pupil (1998)",
-                    "personalized_score": 0.8951981924410456
+                    "personalized_score": 0.9040787982397702
                 },
                 {
                     "item_id": 23,
                     "title": "Taxi Driver (1976)",
-                    "personalized_score": 0.8951981924410456
+                    "personalized_score": 0.9040787982397702
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.9040787982397702
                 },
                 {
                     "item_id": 64,
                     "title": "Shawshank Redemption, The (1994)",
-                    "personalized_score": 0.783166894222823
-                },
-                {
-                    "item_id": 357,
-                    "title": "One Flew Over the Cuckoo's Nest (1975)",
-                    "personalized_score": 0.783166894222823
-                },
-                {
-                    "item_id": 427,
-                    "title": "To Kill a Mockingbird (1962)",
-                    "personalized_score": 0.783166894222823
+                    "personalized_score": 0.7200913781877765
                 },
                 {
                     "item_id": 134,
                     "title": "Citizen Kane (1941)",
-                    "personalized_score": 0.783166894222823
+                    "personalized_score": 0.7200913781877765
                 },
                 {
-                    "item_id": 272,
-                    "title": "Good Will Hunting (1997)",
-                    "personalized_score": 0.783166894222823
+                    "item_id": 427,
+                    "title": "To Kill a Mockingbird (1962)",
+                    "personalized_score": 0.7200913781877765
+                },
+                {
+                    "item_id": 357,
+                    "title": "One Flew Over the Cuckoo's Nest (1975)",
+                    "personalized_score": 0.7200913781877765
+                },
+                {
+                    "item_id": 178,
+                    "title": "12 Angry Men (1957)",
+                    "personalized_score": 0.7200913781877765
                 }
             ],
             "picked_item": {
                 "item_id": 98,
                 "title": "Silence of the Lambs, The (1991)",
-                "score_at_pick": 0.8951981924410456
+                "score_at_pick": 0.9040787982397702
             },
-            "state_drift_l2": 0.1370661184193135
+            "state_drift_l2": 0.13115539196467138
         },
         {
             "round": 3,
@@ -132,60 +132,60 @@
                 {
                     "item_id": 963,
                     "title": "Some Folks Call It a Sling Blade (1993)",
-                    "personalized_score": 0.9477314897382086
+                    "personalized_score": 0.9522336120180802
                 },
                 {
                     "item_id": 98,
                     "title": "Silence of the Lambs, The (1991)",
-                    "personalized_score": 0.9477314897382086
+                    "personalized_score": 0.9522336120180802
                 },
                 {
                     "item_id": 223,
                     "title": "Sling Blade (1996)",
-                    "personalized_score": 0.9477314897382086
-                },
-                {
-                    "item_id": 315,
-                    "title": "Apt Pupil (1998)",
-                    "personalized_score": 0.9477314897382086
+                    "personalized_score": 0.9522336120180802
                 },
                 {
                     "item_id": 23,
                     "title": "Taxi Driver (1976)",
-                    "personalized_score": 0.9477314897382086
+                    "personalized_score": 0.9522336120180802
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.9522336120180802
                 },
                 {
                     "item_id": 64,
                     "title": "Shawshank Redemption, The (1994)",
-                    "personalized_score": 0.7776564168027045
-                },
-                {
-                    "item_id": 357,
-                    "title": "One Flew Over the Cuckoo's Nest (1975)",
-                    "personalized_score": 0.7776564168027045
-                },
-                {
-                    "item_id": 427,
-                    "title": "To Kill a Mockingbird (1962)",
-                    "personalized_score": 0.7776564168027045
+                    "personalized_score": 0.7310737328447651
                 },
                 {
                     "item_id": 134,
                     "title": "Citizen Kane (1941)",
-                    "personalized_score": 0.7776564168027045
+                    "personalized_score": 0.7310737328447651
                 },
                 {
-                    "item_id": 272,
-                    "title": "Good Will Hunting (1997)",
-                    "personalized_score": 0.7776564168027045
+                    "item_id": 427,
+                    "title": "To Kill a Mockingbird (1962)",
+                    "personalized_score": 0.7310737328447651
+                },
+                {
+                    "item_id": 357,
+                    "title": "One Flew Over the Cuckoo's Nest (1975)",
+                    "personalized_score": 0.7310737328447651
+                },
+                {
+                    "item_id": 178,
+                    "title": "12 Angry Men (1957)",
+                    "personalized_score": 0.7310737328447651
                 }
             ],
             "picked_item": {
                 "item_id": 223,
                 "title": "Sling Blade (1996)",
-                "score_at_pick": 0.9477314897382086
+                "score_at_pick": 0.9522336120180802
             },
-            "state_drift_l2": 0.09690279563581855
+            "state_drift_l2": 0.09264360764219902
         },
         {
             "round": 4,
@@ -193,60 +193,60 @@
                 {
                     "item_id": 963,
                     "title": "Some Folks Call It a Sling Blade (1993)",
-                    "personalized_score": 0.9741641833357726
+                    "personalized_score": 0.9764074362325103
                 },
                 {
                     "item_id": 98,
                     "title": "Silence of the Lambs, The (1991)",
-                    "personalized_score": 0.9741641833357726
+                    "personalized_score": 0.9764074362325103
                 },
                 {
                     "item_id": 223,
                     "title": "Sling Blade (1996)",
-                    "personalized_score": 0.9741641833357726
-                },
-                {
-                    "item_id": 315,
-                    "title": "Apt Pupil (1998)",
-                    "personalized_score": 0.9741641833357726
+                    "personalized_score": 0.9764074362325103
                 },
                 {
                     "item_id": 23,
                     "title": "Taxi Driver (1976)",
-                    "personalized_score": 0.9741641833357726
+                    "personalized_score": 0.9764074362325103
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.9764074362325103
                 },
                 {
                     "item_id": 64,
                     "title": "Shawshank Redemption, The (1994)",
-                    "personalized_score": 0.7649343344166729
-                },
-                {
-                    "item_id": 357,
-                    "title": "One Flew Over the Cuckoo's Nest (1975)",
-                    "personalized_score": 0.7649343344166729
-                },
-                {
-                    "item_id": 427,
-                    "title": "To Kill a Mockingbird (1962)",
-                    "personalized_score": 0.7649343344166729
+                    "personalized_score": 0.7312559965900745
                 },
                 {
                     "item_id": 134,
                     "title": "Citizen Kane (1941)",
-                    "personalized_score": 0.7649343344166729
+                    "personalized_score": 0.7312559965900745
                 },
                 {
-                    "item_id": 272,
-                    "title": "Good Will Hunting (1997)",
-                    "personalized_score": 0.7649343344166729
+                    "item_id": 427,
+                    "title": "To Kill a Mockingbird (1962)",
+                    "personalized_score": 0.7312559965900745
+                },
+                {
+                    "item_id": 357,
+                    "title": "One Flew Over the Cuckoo's Nest (1975)",
+                    "personalized_score": 0.7312559965900745
+                },
+                {
+                    "item_id": 178,
+                    "title": "12 Angry Men (1957)",
+                    "personalized_score": 0.7312559965900745
                 }
             ],
             "picked_item": {
-                "item_id": 315,
-                "title": "Apt Pupil (1998)",
-                "score_at_pick": 0.9741641833357726
+                "item_id": 23,
+                "title": "Taxi Driver (1976)",
+                "score_at_pick": 0.9764074362325103
             },
-            "state_drift_l2": 0.06816249945248504
+            "state_drift_l2": 0.06513882863395314
         },
         {
             "round": 5,
@@ -254,75 +254,75 @@
                 {
                     "item_id": 963,
                     "title": "Some Folks Call It a Sling Blade (1993)",
-                    "personalized_score": 0.9872860805850128
+                    "personalized_score": 0.9883943354709966
                 },
                 {
                     "item_id": 98,
                     "title": "Silence of the Lambs, The (1991)",
-                    "personalized_score": 0.9872860805850128
+                    "personalized_score": 0.9883943354709966
                 },
                 {
                     "item_id": 223,
                     "title": "Sling Blade (1996)",
-                    "personalized_score": 0.9872860805850128
-                },
-                {
-                    "item_id": 315,
-                    "title": "Apt Pupil (1998)",
-                    "personalized_score": 0.9872860805850128
+                    "personalized_score": 0.9883943354709966
                 },
                 {
                     "item_id": 23,
                     "title": "Taxi Driver (1976)",
-                    "personalized_score": 0.9872860805850128
+                    "personalized_score": 0.9883943354709966
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.9883943354709966
                 },
                 {
                     "item_id": 64,
                     "title": "Shawshank Redemption, The (1994)",
-                    "personalized_score": 0.7516754233171035
-                },
-                {
-                    "item_id": 357,
-                    "title": "One Flew Over the Cuckoo's Nest (1975)",
-                    "personalized_score": 0.7516754233171035
-                },
-                {
-                    "item_id": 427,
-                    "title": "To Kill a Mockingbird (1962)",
-                    "personalized_score": 0.7516754233171035
+                    "personalized_score": 0.7276251809315244
                 },
                 {
                     "item_id": 134,
                     "title": "Citizen Kane (1941)",
-                    "personalized_score": 0.7516754233171035
+                    "personalized_score": 0.7276251809315244
                 },
                 {
-                    "item_id": 272,
-                    "title": "Good Will Hunting (1997)",
-                    "personalized_score": 0.7516754233171035
+                    "item_id": 427,
+                    "title": "To Kill a Mockingbird (1962)",
+                    "personalized_score": 0.7276251809315244
+                },
+                {
+                    "item_id": 357,
+                    "title": "One Flew Over the Cuckoo's Nest (1975)",
+                    "personalized_score": 0.7276251809315244
+                },
+                {
+                    "item_id": 178,
+                    "title": "12 Angry Men (1957)",
+                    "personalized_score": 0.7276251809315244
                 }
             ],
             "picked_item": {
-                "item_id": 23,
-                "title": "Taxi Driver (1976)",
-                "score_at_pick": 0.9872860805850128
+                "item_id": 315,
+                "title": "Apt Pupil (1998)",
+                "score_at_pick": 0.9883943354709966
             },
-            "state_drift_l2": 0.04782753874417734
+            "state_drift_l2": 0.04569639659366639
         }
     ],
     "summary": {
         "session_name": "session_3_genre_rho_0.3",
         "rho": 0.3,
         "n_rounds": 5,
-        "first_vs_last_slate_overlap_top10": 10,
+        "first_vs_last_slate_overlap_top10": 6,
         "picked_sequence": [
             "Some Folks Call It a Sling Blade (1993)",
             "Silence of the Lambs, The (1991)",
             "Sling Blade (1996)",
-            "Apt Pupil (1998)",
-            "Taxi Driver (1976)"
+            "Taxi Driver (1976)",
+            "Apt Pupil (1998)"
         ],
-        "avg_state_drift_l2": 0.10836896709153117
+        "avg_state_drift_l2": 0.10371410549388509
     },
     "jsonl_records": [
         {
@@ -337,30 +337,30 @@
                 569,
                 31,
                 623,
-                325,
                 94,
-                239,
-                240,
-                66,
-                260,
-                130
+                325,
+                630,
+                942,
+                295,
+                180,
+                239
             ],
             "top_k_item_ids": [
                 963,
                 98,
                 223,
-                315,
                 23,
-                64,
-                357,
-                427,
-                134,
-                272
+                315,
+                316,
+                45,
+                522,
+                408,
+                64
             ],
             "metrics": {
                 "Recall@10": 0.0,
                 "NDCG@10": 0.0,
-                "Diversity@10": 0.1627184548963624
+                "Diversity@10": 0.3461590983732602
             },
             "hyperparameters": {
                 "rho": 0.3,
@@ -371,22 +371,22 @@
                 "internal_idx": 569,
                 "item_id": 963,
                 "title": "Some Folks Call It a Sling Blade (1993)",
-                "score_at_pick": 0.7935945664513127
+                "score_at_pick": 0.8105102066375394
             },
             "updated_state_summary": {
-                "l2_norm": 1.0,
+                "l2_norm": 0.9999999999999999,
                 "top_dimensions": [
                     {
                         "index": 8,
-                        "value": 0.783166894222823
+                        "value": 0.7200913781877765
                     },
                     {
                         "index": 16,
-                        "value": 0.4828345305391838
+                        "value": 0.5584691197368757
                     },
                     {
-                        "index": 17,
-                        "value": 0.2268211768128857
+                        "index": 3,
+                        "value": 0.2855758715748618
                     }
                 ]
             }
@@ -403,25 +403,25 @@
                 569,
                 31,
                 623,
-                325,
                 94,
+                325,
                 239,
-                240,
-                66,
                 260,
-                130
+                66,
+                240,
+                185
             ],
             "top_k_item_ids": [
                 963,
                 98,
                 223,
-                315,
                 23,
+                315,
                 64,
-                357,
-                427,
                 134,
-                272
+                427,
+                357,
+                178
             ],
             "metrics": {
                 "Recall@10": 0.0,
@@ -437,22 +437,22 @@
                 "internal_idx": 31,
                 "item_id": 98,
                 "title": "Silence of the Lambs, The (1991)",
-                "score_at_pick": 0.8951981924410456
+                "score_at_pick": 0.9040787982397702
             },
             "updated_state_summary": {
                 "l2_norm": 1.0,
                 "top_dimensions": [
                     {
                         "index": 8,
-                        "value": 0.7776564168027045
+                        "value": 0.7310737328447651
                     },
                     {
                         "index": 16,
-                        "value": 0.562638309473128
+                        "value": 0.615587955818724
                     },
                     {
-                        "index": 17,
-                        "value": 0.16238895982567958
+                        "index": 3,
+                        "value": 0.20405575163232087
                     }
                 ]
             }
@@ -469,25 +469,25 @@
                 569,
                 31,
                 623,
-                325,
                 94,
+                325,
                 239,
-                240,
-                66,
                 260,
-                130
+                66,
+                240,
+                185
             ],
             "top_k_item_ids": [
                 963,
                 98,
                 223,
-                315,
                 23,
+                315,
                 64,
-                357,
-                427,
                 134,
-                272
+                427,
+                357,
+                178
             ],
             "metrics": {
                 "Recall@10": 0.0,
@@ -503,22 +503,22 @@
                 "internal_idx": 623,
                 "item_id": 223,
                 "title": "Sling Blade (1996)",
-                "score_at_pick": 0.9477314897382086
+                "score_at_pick": 0.9522336120180802
             },
             "updated_state_summary": {
                 "l2_norm": 1.0,
                 "top_dimensions": [
                     {
                         "index": 8,
-                        "value": 0.7649343344166729
+                        "value": 0.7312559965900745
                     },
                     {
                         "index": 16,
-                        "value": 0.612741865634887
+                        "value": 0.6495926421318846
                     },
                     {
-                        "index": 17,
-                        "value": 0.11494090895747033
+                        "index": 3,
+                        "value": 0.14429376156879456
                     }
                 ]
             }
@@ -535,25 +535,25 @@
                 569,
                 31,
                 623,
-                325,
                 94,
+                325,
                 239,
-                240,
-                66,
                 260,
-                130
+                66,
+                240,
+                185
             ],
             "top_k_item_ids": [
                 963,
                 98,
                 223,
-                315,
                 23,
+                315,
                 64,
-                357,
-                427,
                 134,
-                272
+                427,
+                357,
+                178
             ],
             "metrics": {
                 "Recall@10": 0.0,
@@ -566,25 +566,25 @@
                 "representation": "GENRE"
             },
             "chosen_item": {
-                "internal_idx": 325,
-                "item_id": 315,
-                "title": "Apt Pupil (1998)",
-                "score_at_pick": 0.9741641833357726
+                "internal_idx": 94,
+                "item_id": 23,
+                "title": "Taxi Driver (1976)",
+                "score_at_pick": 0.9764074362325103
             },
             "updated_state_summary": {
                 "l2_norm": 0.9999999999999999,
                 "top_dimensions": [
                     {
                         "index": 8,
-                        "value": 0.7516754233171035
+                        "value": 0.7276251809315244
                     },
                     {
                         "index": 16,
-                        "value": 0.6445579417883983
+                        "value": 0.6701754932643019
                     },
                     {
-                        "index": 17,
-                        "value": 0.08089875136855584
+                        "index": 3,
+                        "value": 0.10150980925844835
                     }
                 ]
             }
@@ -601,25 +601,25 @@
                 569,
                 31,
                 623,
-                325,
                 94,
+                325,
                 239,
-                240,
-                66,
                 260,
-                130
+                66,
+                240,
+                185
             ],
             "top_k_item_ids": [
                 963,
                 98,
                 223,
-                315,
                 23,
+                315,
                 64,
-                357,
-                427,
                 134,
-                272
+                427,
+                357,
+                178
             ],
             "metrics": {
                 "Recall@10": 0.0,
@@ -632,25 +632,25 @@
                 "representation": "GENRE"
             },
             "chosen_item": {
-                "internal_idx": 94,
-                "item_id": 23,
-                "title": "Taxi Driver (1976)",
-                "score_at_pick": 0.9872860805850128
+                "internal_idx": 325,
+                "item_id": 315,
+                "title": "Apt Pupil (1998)",
+                "score_at_pick": 0.9883943354709966
             },
             "updated_state_summary": {
                 "l2_norm": 1.0,
                 "top_dimensions": [
                     {
                         "index": 8,
-                        "value": 0.740283977574823
+                        "value": 0.7232344737290605
                     },
                     {
                         "index": 16,
-                        "value": 0.6651007383499927
+                        "value": 0.6829213215481428
                     },
                     {
-                        "index": 17,
-                        "value": 0.05678092959553299
+                        "index": 3,
+                        "value": 0.07123068122137954
                     }
                 ]
             }

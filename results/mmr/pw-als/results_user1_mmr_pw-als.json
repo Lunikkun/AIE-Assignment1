@@ -4,158 +4,158 @@
     "mmr_top10_by_alpha": {
         "alpha_0.1": [
             {
+                "item_id": 1,
+                "title": "Toy Story (1995)",
+                "popularity": 349
+            },
+            {
                 "item_id": 6,
                 "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
-                "popularity": 20
+                "popularity": 17
             },
             {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
+                "item_id": 4,
+                "title": "Get Shorty (1995)",
+                "popularity": 173
             },
             {
-                "item_id": 10,
-                "title": "Richard III (1995)",
-                "popularity": 73
+                "item_id": 32,
+                "title": "Crumb (1994)",
+                "popularity": 64
             },
             {
-                "item_id": 27,
-                "title": "Bad Boys (1995)",
-                "popularity": 50
+                "item_id": 8,
+                "title": "Babe (1995)",
+                "popularity": 172
             },
             {
-                "item_id": 14,
-                "title": "Postino, Il (1994)",
-                "popularity": 140
+                "item_id": 38,
+                "title": "Net, The (1995)",
+                "popularity": 95
             },
             {
-                "item_id": 17,
-                "title": "From Dusk Till Dawn (1996)",
-                "popularity": 72
-            },
-            {
-                "item_id": 24,
-                "title": "Rumble in the Bronx (1995)",
-                "popularity": 136
-            },
-            {
-                "item_id": 23,
-                "title": "Taxi Driver (1976)",
-                "popularity": 157
+                "item_id": 21,
+                "title": "Muppet Treasure Island (1996)",
+                "popularity": 62
             },
             {
                 "item_id": 20,
                 "title": "Angels and Insects (1995)",
-                "popularity": 53
+                "popularity": 54
             },
             {
-                "item_id": 33,
-                "title": "Desperado (1995)",
-                "popularity": 74
+                "item_id": 26,
+                "title": "Brothers McMullen, The (1995)",
+                "popularity": 57
+            },
+            {
+                "item_id": 31,
+                "title": "Crimson Tide (1995)",
+                "popularity": 125
             }
         ],
         "alpha_0.4": [
             {
-                "item_id": 6,
-                "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
-                "popularity": 20
+                "item_id": 1,
+                "title": "Toy Story (1995)",
+                "popularity": 349
             },
-            {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
-            },
-            {
-                "item_id": 27,
-                "title": "Bad Boys (1995)",
-                "popularity": 50
-            },
-            {
-                "item_id": 49,
-                "title": "I.Q. (1994)",
-                "popularity": 64
-            },
-            {
-                "item_id": 84,
-                "title": "Robert A. Heinlein's The Puppet Masters (1994)",
-                "popularity": 16
-            },
-            {
-                "item_id": 17,
-                "title": "From Dusk Till Dawn (1996)",
-                "popularity": 72
-            },
-            {
-                "item_id": 24,
-                "title": "Rumble in the Bronx (1995)",
-                "popularity": 136
-            },
-            {
-                "item_id": 10,
-                "title": "Richard III (1995)",
-                "popularity": 73
-            },
-            {
-                "item_id": 14,
-                "title": "Postino, Il (1994)",
-                "popularity": 140
-            },
-            {
-                "item_id": 33,
-                "title": "Desperado (1995)",
-                "popularity": 74
-            }
-        ],
-        "alpha_0.7": [
             {
                 "item_id": 6,
                 "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
-                "popularity": 20
+                "popularity": 17
             },
             {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
-            },
-            {
-                "item_id": 27,
-                "title": "Bad Boys (1995)",
-                "popularity": 50
-            },
-            {
-                "item_id": 49,
-                "title": "I.Q. (1994)",
+                "item_id": 32,
+                "title": "Crumb (1994)",
                 "popularity": 64
             },
             {
-                "item_id": 84,
-                "title": "Robert A. Heinlein's The Puppet Masters (1994)",
-                "popularity": 16
+                "item_id": 38,
+                "title": "Net, The (1995)",
+                "popularity": 95
             },
             {
-                "item_id": 102,
-                "title": "Aristocats, The (1970)",
-                "popularity": 40
+                "item_id": 21,
+                "title": "Muppet Treasure Island (1996)",
+                "popularity": 62
             },
             {
-                "item_id": 143,
-                "title": "Sound of Music, The (1965)",
-                "popularity": 178
+                "item_id": 4,
+                "title": "Get Shorty (1995)",
+                "popularity": 173
             },
             {
-                "item_id": 72,
-                "title": "Mask, The (1994)",
-                "popularity": 108
+                "item_id": 66,
+                "title": "While You Were Sleeping (1995)",
+                "popularity": 121
             },
             {
                 "item_id": 51,
                 "title": "Legends of the Fall (1994)",
-                "popularity": 59
+                "popularity": 64
             },
             {
-                "item_id": 24,
-                "title": "Rumble in the Bronx (1995)",
-                "popularity": 136
+                "item_id": 31,
+                "title": "Crimson Tide (1995)",
+                "popularity": 125
+            },
+            {
+                "item_id": 8,
+                "title": "Babe (1995)",
+                "popularity": 172
+            }
+        ],
+        "alpha_0.7": [
+            {
+                "item_id": 1,
+                "title": "Toy Story (1995)",
+                "popularity": 349
+            },
+            {
+                "item_id": 6,
+                "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
+                "popularity": 17
+            },
+            {
+                "item_id": 32,
+                "title": "Crumb (1994)",
+                "popularity": 64
+            },
+            {
+                "item_id": 38,
+                "title": "Net, The (1995)",
+                "popularity": 95
+            },
+            {
+                "item_id": 155,
+                "title": "Dirty Dancing (1987)",
+                "popularity": 74
+            },
+            {
+                "item_id": 233,
+                "title": "Under Siege (1992)",
+                "popularity": 95
+            },
+            {
+                "item_id": 267,
+                "title": "unknown",
+                "popularity": 8
+            },
+            {
+                "item_id": 21,
+                "title": "Muppet Treasure Island (1996)",
+                "popularity": 62
+            },
+            {
+                "item_id": 141,
+                "title": "20,000 Leagues Under the Sea (1954)",
+                "popularity": 56
+            },
+            {
+                "item_id": 51,
+                "title": "Legends of the Fall (1994)",
+                "popularity": 64
             }
         ]
     }

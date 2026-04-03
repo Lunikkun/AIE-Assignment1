@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 from MF_SGD import MF_SGD
 from MF_ALS import MF_ALS
@@ -30,6 +31,9 @@ ALS_ITERS        = 8
 PAIRWISE_EPOCHS  = 8
 MMR_TOP_M        = 80
 FAST_USER_SUBSET = 300
+TRAIN_RATIO      = 0.8
+TEST_RATIO       = 0.2
+SPLIT_SEED       = 42
 
 def load_data():
     print("[LOAD] Reading MovieLens 100K dataset...")
@@ -49,24 +53,26 @@ def load_data():
         + [f'genre_{i}' for i in range(19)]
     )
     
-    train_ratings = pd.read_csv(
-        './ml-100k/u1.base',
-        sep='\t',
-        names=['user_id', 'item_id', 'rating', 'timestamp']
+    train_ratings, test_ratings = train_test_split(
+        ratings,
+        test_size=TEST_RATIO,
+        random_state=SPLIT_SEED,
+        shuffle=True,
     )
-    test_ratings = pd.read_csv(
-        './ml-100k/u1.test',
-        sep='\t',
-        names=['user_id', 'item_id', 'rating', 'timestamp']
-    )
+    train_ratings = train_ratings.copy()
+    test_ratings = test_ratings.copy()
     
     user_ids = ratings['user_id'].unique()
     item_ids = ratings['item_id'].unique()
     user_map = {uid: i for i, uid in enumerate(user_ids)}
     item_map = {iid: i for i, iid in enumerate(item_ids)}
-    all_items = sorted(train_ratings['item_id'].unique())
+    all_items = sorted(item_ids)
     
-    print(f"[LOAD] Users: {len(user_ids)}, Items: {len(item_ids)}, Train rows: {len(train_ratings)}, Test rows: {len(test_ratings)}")
+    print(
+        f"[LOAD] Users: {len(user_ids)}, Items: {len(item_ids)}, "
+        f"Train rows: {len(train_ratings)}, Test rows: {len(test_ratings)} "
+        f"(random {int(TRAIN_RATIO*100)}/{int(TEST_RATIO*100)} split, seed={SPLIT_SEED})"
+    )
     
     return ratings, movies, train_ratings, test_ratings, user_ids, item_ids, user_map, item_map, all_items
 
@@ -214,11 +220,11 @@ def main():
         fast_users = set(user_ids[:FAST_USER_SUBSET])
         train_ratings = train_ratings[train_ratings["user_id"].isin(fast_users)].copy()
         test_ratings = test_ratings[test_ratings["user_id"].isin(fast_users)].copy()
-        user_ids = np.array(sorted(train_ratings["user_id"].unique()))
-        item_ids = np.array(sorted(train_ratings["item_id"].unique()))
+        user_ids = np.array(sorted(set(train_ratings["user_id"]).union(set(test_ratings["user_id"]))))
+        item_ids = np.array(sorted(set(train_ratings["item_id"]).union(set(test_ratings["item_id"]))))
         user_map = {uid: i for i, uid in enumerate(user_ids)}
         item_map = {iid: i for i, iid in enumerate(item_ids)}
-        all_items = sorted(train_ratings["item_id"].unique())
+        all_items = sorted(item_ids)
         print(f"[FAST_MODE] Training users limited to first {FAST_USER_SUBSET}. Active users: {len(user_ids)}")
     
     candidates_user = get_candidates(1, train_ratings, all_items)

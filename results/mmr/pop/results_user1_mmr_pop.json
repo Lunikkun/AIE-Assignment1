@@ -4,29 +4,29 @@
     "mmr_top10_by_alpha": {
         "alpha_0.1": [
             {
-                "item_id": 258,
-                "title": "Contact (1997)",
-                "popularity": 402
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 408
+            },
+            {
+                "item_id": 181,
+                "title": "Return of the Jedi (1983)",
+                "popularity": 406
             },
             {
                 "item_id": 294,
                 "title": "Liar Liar (1997)",
-                "popularity": 394
+                "popularity": 383
+            },
+            {
+                "item_id": 258,
+                "title": "Contact (1997)",
+                "popularity": 397
             },
             {
                 "item_id": 288,
                 "title": "Scream (1996)",
-                "popularity": 391
-            },
-            {
-                "item_id": 100,
-                "title": "Fargo (1996)",
-                "popularity": 395
-            },
-            {
-                "item_id": 174,
-                "title": "Raiders of the Lost Ark (1981)",
-                "popularity": 344
+                "popularity": 390
             },
             {
                 "item_id": 286,
@@ -34,128 +34,128 @@
                 "popularity": 388
             },
             {
-                "item_id": 121,
-                "title": "Independence Day (ID4) (1996)",
-                "popularity": 353
-            },
-            {
                 "item_id": 300,
                 "title": "Air Force One (1997)",
-                "popularity": 352
+                "popularity": 355
             },
             {
-                "item_id": 56,
-                "title": "Pulp Fiction (1994)",
-                "popularity": 312
+                "item_id": 1,
+                "title": "Toy Story (1995)",
+                "popularity": 349
             },
             {
-                "item_id": 117,
-                "title": "Rock, The (1996)",
-                "popularity": 302
+                "item_id": 405,
+                "title": "Mission: Impossible (1996)",
+                "popularity": 276
+            },
+            {
+                "item_id": 237,
+                "title": "Jerry Maguire (1996)",
+                "popularity": 316
             }
         ],
         "alpha_0.4": [
             {
-                "item_id": 258,
-                "title": "Contact (1997)",
-                "popularity": 402
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 408
+            },
+            {
+                "item_id": 181,
+                "title": "Return of the Jedi (1983)",
+                "popularity": 406
             },
             {
                 "item_id": 294,
                 "title": "Liar Liar (1997)",
-                "popularity": 394
+                "popularity": 383
+            },
+            {
+                "item_id": 258,
+                "title": "Contact (1997)",
+                "popularity": 397
             },
             {
                 "item_id": 288,
                 "title": "Scream (1996)",
-                "popularity": 391
-            },
-            {
-                "item_id": 174,
-                "title": "Raiders of the Lost Ark (1981)",
-                "popularity": 344
-            },
-            {
-                "item_id": 100,
-                "title": "Fargo (1996)",
-                "popularity": 395
+                "popularity": 390
             },
             {
                 "item_id": 286,
                 "title": "English Patient, The (1996)",
                 "popularity": 388
-            },
-            {
-                "item_id": 121,
-                "title": "Independence Day (ID4) (1996)",
-                "popularity": 353
             },
             {
                 "item_id": 300,
                 "title": "Air Force One (1997)",
-                "popularity": 352
+                "popularity": 355
             },
             {
-                "item_id": 151,
-                "title": "Willy Wonka and the Chocolate Factory (1971)",
-                "popularity": 260
+                "item_id": 405,
+                "title": "Mission: Impossible (1996)",
+                "popularity": 276
+            },
+            {
+                "item_id": 1,
+                "title": "Toy Story (1995)",
+                "popularity": 349
             },
             {
                 "item_id": 313,
                 "title": "Titanic (1997)",
-                "popularity": 277
+                "popularity": 268
             }
         ],
         "alpha_0.7": [
             {
-                "item_id": 258,
-                "title": "Contact (1997)",
-                "popularity": 402
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 408
+            },
+            {
+                "item_id": 181,
+                "title": "Return of the Jedi (1983)",
+                "popularity": 406
             },
             {
                 "item_id": 294,
                 "title": "Liar Liar (1997)",
-                "popularity": 394
+                "popularity": 383
+            },
+            {
+                "item_id": 588,
+                "title": "Beauty and the Beast (1991)",
+                "popularity": 162
+            },
+            {
+                "item_id": 423,
+                "title": "E.T. the Extra-Terrestrial (1982)",
+                "popularity": 240
             },
             {
                 "item_id": 288,
                 "title": "Scream (1996)",
-                "popularity": 391
+                "popularity": 390
             },
             {
-                "item_id": 174,
-                "title": "Raiders of the Lost Ark (1981)",
-                "popularity": 344
-            },
-            {
-                "item_id": 143,
-                "title": "Sound of Music, The (1965)",
-                "popularity": 178
-            },
-            {
-                "item_id": 100,
-                "title": "Fargo (1996)",
-                "popularity": 395
-            },
-            {
-                "item_id": 286,
-                "title": "English Patient, The (1996)",
-                "popularity": 388
-            },
-            {
-                "item_id": 121,
-                "title": "Independence Day (ID4) (1996)",
-                "popularity": 353
+                "item_id": 237,
+                "title": "Jerry Maguire (1996)",
+                "popularity": 316
             },
             {
                 "item_id": 328,
                 "title": "Conspiracy Theory (1997)",
-                "popularity": 237
+                "popularity": 239
             },
             {
-                "item_id": 97,
-                "title": "Dances with Wolves (1990)",
-                "popularity": 208
+                "item_id": 318,
+                "title": "Schindler's List (1993)",
+                "popularity": 236
+            },
+            {
+                "item_id": 405,
+                "title": "Mission: Impossible (1996)",
+                "popularity": 276
             }
         ]
     }

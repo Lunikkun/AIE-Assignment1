@@ -6,69 +6,64 @@
             {
                 "item_id": 408,
                 "title": "Close Shave, A (1995)",
-                "popularity": 93
-            },
-            {
-                "item_id": 483,
-                "title": "Casablanca (1942)",
-                "popularity": 195
-            },
-            {
-                "item_id": 603,
-                "title": "Rear Window (1954)",
-                "popularity": 173
-            },
-            {
-                "item_id": 488,
-                "title": "Sunset Blvd. (1950)",
-                "popularity": 50
-            },
-            {
-                "item_id": 64,
-                "title": "Shawshank Redemption, The (1994)",
-                "popularity": 223
-            },
-            {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
+                "popularity": 84
             },
             {
                 "item_id": 318,
                 "title": "Schindler's List (1993)",
-                "popularity": 237
+                "popularity": 236
             },
             {
-                "item_id": 185,
-                "title": "Psycho (1960)",
-                "popularity": 193
+                "item_id": 603,
+                "title": "Rear Window (1954)",
+                "popularity": 167
             },
             {
-                "item_id": 480,
-                "title": "North by Northwest (1959)",
-                "popularity": 139
+                "item_id": 320,
+                "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
+                "popularity": 15
             },
             {
-                "item_id": 427,
-                "title": "To Kill a Mockingbird (1962)",
-                "popularity": 180
+                "item_id": 64,
+                "title": "Shawshank Redemption, The (1994)",
+                "popularity": 228
+            },
+            {
+                "item_id": 657,
+                "title": "Manchurian Candidate, The (1962)",
+                "popularity": 105
+            },
+            {
+                "item_id": 483,
+                "title": "Casablanca (1942)",
+                "popularity": 189
+            },
+            {
+                "item_id": 963,
+                "title": "Some Folks Call It a Sling Blade (1993)",
+                "popularity": 34
+            },
+            {
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "popularity": 111
+            },
+            {
+                "item_id": 357,
+                "title": "One Flew Over the Cuckoo's Nest (1975)",
+                "popularity": 220
             }
         ],
         "alpha_0.4": [
             {
                 "item_id": 408,
                 "title": "Close Shave, A (1995)",
-                "popularity": 93
+                "popularity": 84
             },
             {
-                "item_id": 483,
-                "title": "Casablanca (1942)",
-                "popularity": 195
-            },
-            {
-                "item_id": 488,
-                "title": "Sunset Blvd. (1950)",
-                "popularity": 50
+                "item_id": 318,
+                "title": "Schindler's List (1993)",
+                "popularity": 236
             },
             {
                 "item_id": 320,
@@ -76,51 +71,51 @@
                 "popularity": 15
             },
             {
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "popularity": 111
+            },
+            {
+                "item_id": 661,
+                "title": "High Noon (1952)",
+                "popularity": 79
+            },
+            {
                 "item_id": 603,
                 "title": "Rear Window (1954)",
-                "popularity": 173
+                "popularity": 167
             },
             {
-                "item_id": 174,
-                "title": "Raiders of the Lost Ark (1981)",
-                "popularity": 344
+                "item_id": 657,
+                "title": "Manchurian Candidate, The (1962)",
+                "popularity": 105
             },
             {
-                "item_id": 185,
-                "title": "Psycho (1960)",
-                "popularity": 193
-            },
-            {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
-            },
-            {
-                "item_id": 474,
-                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-                "popularity": 151
+                "item_id": 963,
+                "title": "Some Folks Call It a Sling Blade (1993)",
+                "popularity": 34
             },
             {
                 "item_id": 64,
                 "title": "Shawshank Redemption, The (1994)",
-                "popularity": 223
+                "popularity": 228
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 159
             }
         ],
         "alpha_0.7": [
             {
                 "item_id": 408,
                 "title": "Close Shave, A (1995)",
-                "popularity": 93
+                "popularity": 84
             },
             {
-                "item_id": 483,
-                "title": "Casablanca (1942)",
-                "popularity": 195
-            },
-            {
-                "item_id": 488,
-                "title": "Sunset Blvd. (1950)",
-                "popularity": 50
+                "item_id": 318,
+                "title": "Schindler's List (1993)",
+                "popularity": 236
             },
             {
                 "item_id": 320,
@@ -128,34 +123,39 @@
                 "popularity": 15
             },
             {
-                "item_id": 174,
-                "title": "Raiders of the Lost Ark (1981)",
-                "popularity": 344
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "popularity": 111
             },
             {
                 "item_id": 661,
                 "title": "High Noon (1952)",
-                "popularity": 70
+                "popularity": 79
             },
             {
-                "item_id": 185,
-                "title": "Psycho (1960)",
-                "popularity": 193
+                "item_id": 530,
+                "title": "Man Who Would Be King, The (1975)",
+                "popularity": 64
+            },
+            {
+                "item_id": 705,
+                "title": "Singin' in the Rain (1952)",
+                "popularity": 111
             },
             {
                 "item_id": 603,
                 "title": "Rear Window (1954)",
-                "popularity": 173
+                "popularity": 167
             },
             {
-                "item_id": 474,
-                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-                "popularity": 151
+                "item_id": 657,
+                "title": "Manchurian Candidate, The (1962)",
+                "popularity": 105
             },
             {
-                "item_id": 12,
-                "title": "Usual Suspects, The (1995)",
-                "popularity": 211
+                "item_id": 963,
+                "title": "Some Folks Call It a Sling Blade (1993)",
+                "popularity": 34
             }
         ]
     }

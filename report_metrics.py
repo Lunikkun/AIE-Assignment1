@@ -2,6 +2,7 @@ import json
 import os
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
 from MF_ALS import MF_ALS
 from MF_SGD import MF_SGD
 from _utils import (
@@ -24,6 +25,9 @@ FAST_MODE        = False
 FAST_USER_SUBSET = 300
 MMR_TOP_M        = 80
 PAIRWISE_EPOCHS  = 8
+TRAIN_RATIO      = 0.8
+TEST_RATIO       = 0.2
+SPLIT_SEED       = 42
 
 
 def _load_jsonl_records(path):
@@ -93,15 +97,21 @@ def main():
         names=["movie_id", "movie_title", "release_date", "video_release_date", "IMDb_URL"]
         + [f"genre_{i}" for i in range(19)],
     )
-    train_ratings = pd.read_csv("./ml-100k/u1.base", sep="\t", names=["user_id", "item_id", "rating", "timestamp"])
-    test_ratings = pd.read_csv("./ml-100k/u1.test", sep="\t", names=["user_id", "item_id", "rating", "timestamp"])
+    train_ratings, test_ratings = train_test_split(
+        ratings,
+        test_size=TEST_RATIO,
+        random_state=SPLIT_SEED,
+        shuffle=True,
+    )
+    train_ratings = train_ratings.copy()
+    test_ratings = test_ratings.copy()
 
     user_ids = ratings["user_id"].unique()
     item_ids = ratings["item_id"].unique()
     user_map = {uid: i for i, uid in enumerate(user_ids)}
     item_map = {iid: i for i, iid in enumerate(item_ids)}
 
-    all_items = sorted(train_ratings["item_id"].unique())
+    all_items = sorted(item_ids)
     relevant_map = build_relevant_items_map(test_ratings, threshold=4)
 
     genre_matrix, item_to_idx = build_genre_matrix(movies)
@@ -233,7 +243,7 @@ def main():
         all_log_records.extend(records)
 
     report = {
-        "dataset_split":         "u1.base / u1.test",
+        "dataset_split":         f"random {int(TRAIN_RATIO*100)}/{int(TEST_RATIO*100)} from u.data (seed={SPLIT_SEED})",
         "relevance_definition":  "rating >= 4",
         "fast_mode":             FAST_MODE,
         "metrics": {

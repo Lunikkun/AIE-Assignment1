@@ -2,24 +2,24 @@
     "user_id": 1,
     "popularity_top10": [
         {
-            "item_id": 258,
-            "title": "Contact (1997)",
-            "popularity": 402
-        },
-        {
             "item_id": 100,
             "title": "Fargo (1996)",
-            "popularity": 395
+            "popularity": 408
         },
         {
-            "item_id": 294,
-            "title": "Liar Liar (1997)",
-            "popularity": 394
+            "item_id": 181,
+            "title": "Return of the Jedi (1983)",
+            "popularity": 406
+        },
+        {
+            "item_id": 258,
+            "title": "Contact (1997)",
+            "popularity": 397
         },
         {
             "item_id": 288,
             "title": "Scream (1996)",
-            "popularity": 391
+            "popularity": 390
         },
         {
             "item_id": 286,
@@ -27,85 +27,85 @@
             "popularity": 388
         },
         {
-            "item_id": 121,
-            "title": "Independence Day (ID4) (1996)",
-            "popularity": 353
+            "item_id": 294,
+            "title": "Liar Liar (1997)",
+            "popularity": 383
         },
         {
             "item_id": 300,
             "title": "Air Force One (1997)",
-            "popularity": 352
+            "popularity": 355
         },
         {
-            "item_id": 174,
-            "title": "Raiders of the Lost Ark (1981)",
-            "popularity": 344
+            "item_id": 1,
+            "title": "Toy Story (1995)",
+            "popularity": 349
         },
         {
-            "item_id": 56,
-            "title": "Pulp Fiction (1994)",
-            "popularity": 312
+            "item_id": 237,
+            "title": "Jerry Maguire (1996)",
+            "popularity": 316
         },
         {
-            "item_id": 117,
-            "title": "Rock, The (1996)",
-            "popularity": 302
+            "item_id": 405,
+            "title": "Mission: Impossible (1996)",
+            "popularity": 276
         }
     ],
     "mf_top10": [
         {
-            "item_id": 615,
-            "title": "39 Steps, The (1935)",
-            "pred_score": 7.526252956393812
+            "item_id": 462,
+            "title": "Like Water For Chocolate (Como agua para chocolate) (1992)",
+            "pred_score": 6.927177177030796
         },
         {
-            "item_id": 410,
-            "title": "Kingpin (1996)",
-            "pred_score": 7.511645461089212
+            "item_id": 469,
+            "title": "Short Cuts (1993)",
+            "pred_score": 6.863010775581386
         },
         {
-            "item_id": 780,
-            "title": "Dumb & Dumber (1994)",
-            "pred_score": 7.464259531329284
+            "item_id": 887,
+            "title": "Eve's Bayou (1997)",
+            "pred_score": 6.560661300982009
         },
         {
-            "item_id": 1098,
-            "title": "Flirting With Disaster (1996)",
-            "pred_score": 7.452538732279388
+            "item_id": 543,
+            "title": "Mis\u00e9rables, Les (1995)",
+            "pred_score": 6.501398447101153
         },
         {
-            "item_id": 880,
-            "title": "Soul Food (1997)",
-            "pred_score": 7.452450341651833
+            "item_id": 206,
+            "title": "Akira (1988)",
+            "pred_score": 6.269829422034554
         },
         {
-            "item_id": 342,
-            "title": "Man Who Knew Too Little, The (1997)",
-            "pred_score": 7.38917996775618
+            "item_id": 585,
+            "title": "Son in Law (1993)",
+            "pred_score": 6.26506351703372
         },
         {
-            "item_id": 898,
-            "title": "Postman, The (1997)",
-            "pred_score": 7.286774074179904
+            "item_id": 467,
+            "title": "Bronx Tale, A (1993)",
+            "pred_score": 6.150756903026728
         },
         {
-            "item_id": 253,
-            "title": "Pillow Book, The (1995)",
-            "pred_score": 7.242936122193745
+            "item_id": 900,
+            "title": "Kundun (1997)",
+            "pred_score": 6.138854321636465
         },
         {
-            "item_id": 614,
-            "title": "Giant (1956)",
-            "pred_score": 7.136029776826459
+            "item_id": 1134,
+            "title": "Get on the Bus (1996)",
+            "pred_score": 6.134579853219979
         },
         {
-            "item_id": 672,
-            "title": "Candyman (1992)",
-            "pred_score": 7.079966753604949
+            "item_id": 525,
+            "title": "Big Sleep, The (1946)",
+            "pred_score": 6.092920340576239
         }
     ],
     "metrics": {
-        "final_train_loss": 2.007419413403689
+        "final_train_loss": 1.9843321733275325
     },
     "model_params": {
         "n_factors": 20,

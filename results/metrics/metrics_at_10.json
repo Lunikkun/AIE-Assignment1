@@ -1,5 +1,5 @@
 {
-    "dataset_split": "u1.base / u1.test",
+    "dataset_split": "random 80/20 from u.data (seed=42)",
     "relevance_definition": "rating >= 4",
     "fast_mode": false,
     "metrics": {
@@ -10,59 +10,59 @@
     "results": {
         "R1_popularity": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.11800967978994209,
-            "NDCG@10": 0.24507377260800475,
-            "Diversity@10": 0.7655742528922279
+            "evaluated_users": 920,
+            "Recall@10": 0.13724848398886913,
+            "NDCG@10": 0.17637938969590722,
+            "Diversity@10": 0.7516514852131387
         },
         "R2_mf_sgd": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.044369048023046705,
-            "NDCG@10": 0.11397135818817779,
-            "Diversity@10": 0.7687743159934843
+            "evaluated_users": 920,
+            "Recall@10": 0.042276550002518544,
+            "NDCG@10": 0.0687804064206954,
+            "Diversity@10": 0.769627819404332
         },
         "R3_mf_als": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.007747756392249174,
-            "NDCG@10": 0.026696793269378488,
-            "Diversity@10": 0.7402517099043628
+            "evaluated_users": 920,
+            "Recall@10": 0.008455548685976855,
+            "NDCG@10": 0.016414847898773947,
+            "Diversity@10": 0.7445750748005838
         },
         "R4_pairwise_mf_sgd": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.027263687069872245,
-            "NDCG@10": 0.08013990713110179,
-            "Diversity@10": 0.6925173521115918
+            "evaluated_users": 920,
+            "Recall@10": 0.030931028497647912,
+            "NDCG@10": 0.05119444723823299,
+            "Diversity@10": 0.6939375629410139
         },
         "R4_pairwise_mf_als": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.0290520676428805,
-            "NDCG@10": 0.08255285088535151,
-            "Diversity@10": 0.6969526845707346
+            "evaluated_users": 920,
+            "Recall@10": 0.03155433697328023,
+            "NDCG@10": 0.05172057393767405,
+            "Diversity@10": 0.6983660301669868
         },
         "R5_mmr_on_sgd_alpha_0.1": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.04506025782888396,
-            "NDCG@10": 0.1182376907955529,
-            "Diversity@10": 0.8159305254064575
+            "evaluated_users": 920,
+            "Recall@10": 0.0415912373929907,
+            "NDCG@10": 0.07044519694761042,
+            "Diversity@10": 0.8135765638046615
         },
         "R5_mmr_on_sgd_alpha_0.4": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.03955872382751933,
-            "NDCG@10": 0.10918051108695324,
-            "Diversity@10": 0.9113571434732218
+            "evaluated_users": 920,
+            "Recall@10": 0.03969973590404352,
+            "NDCG@10": 0.06808766814498235,
+            "Diversity@10": 0.9061973245006737
         },
         "R5_mmr_on_sgd_alpha_0.7": {
             "k": 10,
-            "evaluated_users": 456,
-            "Recall@10": 0.033857258006717524,
-            "NDCG@10": 0.09753615575448335,
-            "Diversity@10": 0.9508665543321618
+            "evaluated_users": 920,
+            "Recall@10": 0.03947045139940039,
+            "NDCG@10": 0.06647934642121738,
+            "Diversity@10": 0.9306102499791871
         }
     },
     "leakage_checks": {

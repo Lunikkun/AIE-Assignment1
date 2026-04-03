@@ -10,9 +10,9 @@
         ]
     },
     "discussion": [
-        "session_1_mf_rho_0.1: overlap top10 round1->round5 = 8/10, rho=0.1, drift medio stato=0.0902.",
+        "session_1_mf_rho_0.1: overlap top10 round1->round5 = 9/10, rho=0.1, drift medio stato=0.0880.",
         "session_2_mf_rho_0.3: overlap top10 round1->round5 = 6/10, rho=0.3, drift medio stato=0.2774.",
-        "session_3_genre_rho_0.3: overlap top10 round1->round5 = 10/10, rho=0.3, drift medio stato=0.1084."
+        "session_3_genre_rho_0.3: overlap top10 round1->round5 = 6/10, rho=0.3, drift medio stato=0.1037."
     ],
     "session_files": [
         "session_1_mf_rho_0.1.json",

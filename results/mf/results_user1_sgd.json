@@ -2,24 +2,24 @@
     "user_id": 1,
     "popularity_top10": [
         {
-            "item_id": 258,
-            "title": "Contact (1997)",
-            "popularity": 402
-        },
-        {
             "item_id": 100,
             "title": "Fargo (1996)",
-            "popularity": 395
+            "popularity": 408
         },
         {
-            "item_id": 294,
-            "title": "Liar Liar (1997)",
-            "popularity": 394
+            "item_id": 181,
+            "title": "Return of the Jedi (1983)",
+            "popularity": 406
+        },
+        {
+            "item_id": 258,
+            "title": "Contact (1997)",
+            "popularity": 397
         },
         {
             "item_id": 288,
             "title": "Scream (1996)",
-            "popularity": 391
+            "popularity": 390
         },
         {
             "item_id": 286,
@@ -27,85 +27,85 @@
             "popularity": 388
         },
         {
-            "item_id": 121,
-            "title": "Independence Day (ID4) (1996)",
-            "popularity": 353
+            "item_id": 294,
+            "title": "Liar Liar (1997)",
+            "popularity": 383
         },
         {
             "item_id": 300,
             "title": "Air Force One (1997)",
-            "popularity": 352
+            "popularity": 355
         },
         {
-            "item_id": 174,
-            "title": "Raiders of the Lost Ark (1981)",
-            "popularity": 344
+            "item_id": 1,
+            "title": "Toy Story (1995)",
+            "popularity": 349
         },
         {
-            "item_id": 56,
-            "title": "Pulp Fiction (1994)",
-            "popularity": 312
+            "item_id": 237,
+            "title": "Jerry Maguire (1996)",
+            "popularity": 316
         },
         {
-            "item_id": 117,
-            "title": "Rock, The (1996)",
-            "popularity": 302
+            "item_id": 405,
+            "title": "Mission: Impossible (1996)",
+            "popularity": 276
         }
     ],
     "mf_top10": [
         {
             "item_id": 408,
             "title": "Close Shave, A (1995)",
-            "pred_score": 4.569213381982359
-        },
-        {
-            "item_id": 483,
-            "title": "Casablanca (1942)",
-            "pred_score": 4.568780818170864
-        },
-        {
-            "item_id": 603,
-            "title": "Rear Window (1954)",
-            "pred_score": 4.527863373078412
+            "pred_score": 4.589128620826707
         },
         {
             "item_id": 318,
             "title": "Schindler's List (1993)",
-            "pred_score": 4.462737025264811
+            "pred_score": 4.56046035077141
+        },
+        {
+            "item_id": 603,
+            "title": "Rear Window (1954)",
+            "pred_score": 4.508543920631138
         },
         {
             "item_id": 64,
             "title": "Shawshank Redemption, The (1994)",
-            "pred_score": 4.444694355920848
+            "pred_score": 4.496291337810769
         },
         {
-            "item_id": 12,
-            "title": "Usual Suspects, The (1995)",
-            "pred_score": 4.442179663117727
+            "item_id": 483,
+            "title": "Casablanca (1942)",
+            "pred_score": 4.459514519731459
         },
         {
-            "item_id": 480,
-            "title": "North by Northwest (1959)",
-            "pred_score": 4.411268056931891
+            "item_id": 657,
+            "title": "Manchurian Candidate, The (1962)",
+            "pred_score": 4.40502701048813
         },
         {
-            "item_id": 427,
-            "title": "To Kill a Mockingbird (1962)",
-            "pred_score": 4.409401769441725
+            "item_id": 963,
+            "title": "Some Folks Call It a Sling Blade (1993)",
+            "pred_score": 4.394662609570198
         },
         {
-            "item_id": 488,
-            "title": "Sunset Blvd. (1950)",
-            "pred_score": 4.395288099659309
+            "item_id": 357,
+            "title": "One Flew Over the Cuckoo's Nest (1975)",
+            "pred_score": 4.391450491993799
         },
         {
-            "item_id": 185,
-            "title": "Psycho (1960)",
-            "pred_score": 4.38082512015887
+            "item_id": 320,
+            "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
+            "pred_score": 4.358594741809073
+        },
+        {
+            "item_id": 484,
+            "title": "Maltese Falcon, The (1941)",
+            "pred_score": 4.352275554751242
         }
     ],
     "metrics": {
-        "final_train_loss": 0.867902167244366
+        "final_train_loss": 0.8943705673473946
     },
     "model_params": {
         "n_factors": 20,
