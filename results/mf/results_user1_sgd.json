@@ -1,0 +1,117 @@
+{
+    "user_id": 1,
+    "popularity_top10": [
+        {
+            "item_id": 258,
+            "title": "Contact (1997)",
+            "popularity": 402
+        },
+        {
+            "item_id": 100,
+            "title": "Fargo (1996)",
+            "popularity": 395
+        },
+        {
+            "item_id": 294,
+            "title": "Liar Liar (1997)",
+            "popularity": 394
+        },
+        {
+            "item_id": 288,
+            "title": "Scream (1996)",
+            "popularity": 391
+        },
+        {
+            "item_id": 286,
+            "title": "English Patient, The (1996)",
+            "popularity": 388
+        },
+        {
+            "item_id": 121,
+            "title": "Independence Day (ID4) (1996)",
+            "popularity": 353
+        },
+        {
+            "item_id": 300,
+            "title": "Air Force One (1997)",
+            "popularity": 352
+        },
+        {
+            "item_id": 174,
+            "title": "Raiders of the Lost Ark (1981)",
+            "popularity": 344
+        },
+        {
+            "item_id": 56,
+            "title": "Pulp Fiction (1994)",
+            "popularity": 312
+        },
+        {
+            "item_id": 117,
+            "title": "Rock, The (1996)",
+            "popularity": 302
+        }
+    ],
+    "mf_top10": [
+        {
+            "item_id": 1449,
+            "title": "Pather Panchali (1955)",
+            "pred_score": 4.926169282909824
+        },
+        {
+            "item_id": 408,
+            "title": "Close Shave, A (1995)",
+            "pred_score": 4.850148230942944
+        },
+        {
+            "item_id": 114,
+            "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+            "pred_score": 4.686072260775736
+        },
+        {
+            "item_id": 483,
+            "title": "Casablanca (1942)",
+            "pred_score": 4.666154502176063
+        },
+        {
+            "item_id": 357,
+            "title": "One Flew Over the Cuckoo's Nest (1975)",
+            "pred_score": 4.66131324172656
+        },
+        {
+            "item_id": 1131,
+            "title": "Safe (1995)",
+            "pred_score": 4.609008551536387
+        },
+        {
+            "item_id": 513,
+            "title": "Third Man, The (1949)",
+            "pred_score": 4.604653619406611
+        },
+        {
+            "item_id": 285,
+            "title": "Secrets & Lies (1996)",
+            "pred_score": 4.585844787806801
+        },
+        {
+            "item_id": 100,
+            "title": "Fargo (1996)",
+            "pred_score": 4.577786174786237
+        },
+        {
+            "item_id": 474,
+            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+            "pred_score": 4.57735791981307
+        }
+    ],
+    "metrics": {
+        "final_train_loss": 0.8349062252015023
+    },
+    "model_params": {
+        "n_factors": 10,
+        "reg": 0.1,
+        "lr": 0.01,
+        "patience": 3
+    },
+    "model_type": "sgd"
+}

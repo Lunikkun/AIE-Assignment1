@@ -1,0 +1,162 @@
+{
+    "user_id": 1,
+    "base_ranker": "sgd",
+    "mmr_top10_by_alpha": {
+        "alpha_0.1": [
+            {
+                "item_id": 1449,
+                "title": "Pather Panchali (1955)",
+                "popularity": 7
+            },
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 114,
+                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                "popularity": 45
+            },
+            {
+                "item_id": 483,
+                "title": "Casablanca (1942)",
+                "popularity": 195
+            },
+            {
+                "item_id": 1131,
+                "title": "Safe (1995)",
+                "popularity": 8
+            },
+            {
+                "item_id": 357,
+                "title": "One Flew Over the Cuckoo's Nest (1975)",
+                "popularity": 210
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 395
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            }
+        ],
+        "alpha_0.4": [
+            {
+                "item_id": 1449,
+                "title": "Pather Panchali (1955)",
+                "popularity": 7
+            },
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 114,
+                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                "popularity": 45
+            },
+            {
+                "item_id": 483,
+                "title": "Casablanca (1942)",
+                "popularity": 195
+            },
+            {
+                "item_id": 511,
+                "title": "Lawrence of Arabia (1962)",
+                "popularity": 132
+            },
+            {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 395
+            },
+            {
+                "item_id": 1131,
+                "title": "Safe (1995)",
+                "popularity": 8
+            }
+        ],
+        "alpha_0.7": [
+            {
+                "item_id": 1449,
+                "title": "Pather Panchali (1955)",
+                "popularity": 7
+            },
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 174,
+                "title": "Raiders of the Lost Ark (1981)",
+                "popularity": 344
+            },
+            {
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "popularity": 107
+            },
+            {
+                "item_id": 185,
+                "title": "Psycho (1960)",
+                "popularity": 193
+            },
+            {
+                "item_id": 12,
+                "title": "Usual Suspects, The (1995)",
+                "popularity": 211
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 511,
+                "title": "Lawrence of Arabia (1962)",
+                "popularity": 132
+            }
+        ]
+    }
+}

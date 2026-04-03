@@ -1,0 +1,108 @@
+{
+    "user_id": 1,
+    "popularity_top10": [
+        {
+            "item_id": 258,
+            "title": "Contact (1997)",
+            "popularity": 402
+        },
+        {
+            "item_id": 100,
+            "title": "Fargo (1996)",
+            "popularity": 395
+        },
+        {
+            "item_id": 294,
+            "title": "Liar Liar (1997)",
+            "popularity": 394
+        },
+        {
+            "item_id": 288,
+            "title": "Scream (1996)",
+            "popularity": 391
+        },
+        {
+            "item_id": 286,
+            "title": "English Patient, The (1996)",
+            "popularity": 388
+        },
+        {
+            "item_id": 121,
+            "title": "Independence Day (ID4) (1996)",
+            "popularity": 353
+        },
+        {
+            "item_id": 300,
+            "title": "Air Force One (1997)",
+            "popularity": 352
+        },
+        {
+            "item_id": 174,
+            "title": "Raiders of the Lost Ark (1981)",
+            "popularity": 344
+        },
+        {
+            "item_id": 56,
+            "title": "Pulp Fiction (1994)",
+            "popularity": 312
+        },
+        {
+            "item_id": 117,
+            "title": "Rock, The (1996)",
+            "popularity": 302
+        }
+    ],
+    "mf_top10": [
+        {
+            "item_id": 1183,
+            "title": "Cowboy Way, The (1994)",
+            "pred_score": 0.9999602144476971
+        },
+        {
+            "item_id": 474,
+            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+            "pred_score": 0.9999360971576107
+        },
+        {
+            "item_id": 502,
+            "title": "Bananas (1971)",
+            "pred_score": 0.9999039720179261
+        },
+        {
+            "item_id": 647,
+            "title": "Ran (1985)",
+            "pred_score": 0.9998994217036543
+        },
+        {
+            "item_id": 64,
+            "title": "Shawshank Redemption, The (1994)",
+            "pred_score": 0.9998979597633231
+        },
+        {
+            "item_id": 208,
+            "title": "Young Frankenstein (1974)",
+            "pred_score": 0.9998929866722187
+        },
+        {
+            "item_id": 1142,
+            "title": "When We Were Kings (1996)",
+            "pred_score": 0.9998929695677387
+        },
+        {
+            "item_id": 189,
+            "title": "Grand Day Out, A (1992)",
+            "pred_score": 0.9998838073827984
+        },
+        {
+            "item_id": 1154,
+            "title": "Alphaville (1965)",
+            "pred_score": 0.9998812261453744
+        },
+        {
+            "item_id": 361,
+            "title": "Incognito (1997)",
+            "pred_score": 0.9998789523501753
+        }
+    ],
+    "model_type": "pw-als"
+}

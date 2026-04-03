@@ -1,0 +1,162 @@
+{
+    "user_id": 1,
+    "base_ranker": "pw-sgd",
+    "mmr_top10_by_alpha": {
+        "alpha_0.1": [
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 180,
+                "title": "Apocalypse Now (1979)",
+                "popularity": 179
+            },
+            {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 395
+            },
+            {
+                "item_id": 357,
+                "title": "One Flew Over the Cuckoo's Nest (1975)",
+                "popularity": 210
+            },
+            {
+                "item_id": 114,
+                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                "popularity": 45
+            },
+            {
+                "item_id": 1449,
+                "title": "Pather Panchali (1955)",
+                "popularity": 7
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 285,
+                "title": "Secrets & Lies (1996)",
+                "popularity": 135
+            },
+            {
+                "item_id": 171,
+                "title": "Delicatessen (1991)",
+                "popularity": 56
+            },
+            {
+                "item_id": 750,
+                "title": "Amistad (1997)",
+                "popularity": 101
+            }
+        ],
+        "alpha_0.4": [
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 180,
+                "title": "Apocalypse Now (1979)",
+                "popularity": 179
+            },
+            {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 395
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 171,
+                "title": "Delicatessen (1991)",
+                "popularity": 56
+            },
+            {
+                "item_id": 114,
+                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                "popularity": 45
+            },
+            {
+                "item_id": 357,
+                "title": "One Flew Over the Cuckoo's Nest (1975)",
+                "popularity": 210
+            },
+            {
+                "item_id": 185,
+                "title": "Psycho (1960)",
+                "popularity": 193
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            }
+        ],
+        "alpha_0.7": [
+            {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "popularity": 93
+            },
+            {
+                "item_id": 180,
+                "title": "Apocalypse Now (1979)",
+                "popularity": 179
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 919,
+                "title": "City of Lost Children, The (1995)",
+                "popularity": 79
+            },
+            {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "popularity": 395
+            },
+            {
+                "item_id": 185,
+                "title": "Psycho (1960)",
+                "popularity": 193
+            },
+            {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "popularity": 61
+            },
+            {
+                "item_id": 132,
+                "title": "Wizard of Oz, The (1939)",
+                "popularity": 200
+            },
+            {
+                "item_id": 171,
+                "title": "Delicatessen (1991)",
+                "popularity": 56
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            }
+        ]
+    }
+}

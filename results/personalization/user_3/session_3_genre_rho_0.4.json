@@ -1,0 +1,327 @@
+{
+    "user_id": 3,
+    "session_name": "session_3_genre_rho_0.4",
+    "rho": 0.4,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 318,
+                    "title": "Schindler's List (1993)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 199,
+                    "title": "Bridge on the River Kwai, The (1957)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 1176,
+                    "title": "Welcome To Sarajevo (1997)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 641,
+                    "title": "Paths of Glory (1957)",
+                    "personalized_score": 0.7590077531879846
+                },
+                {
+                    "item_id": 205,
+                    "title": "Patton (1970)",
+                    "personalized_score": 0.7590077531879846
+                }
+            ],
+            "picked_item": {
+                "item_id": 318,
+                "title": "Schindler's List (1993)",
+                "score_at_pick": 0.7590077531879846
+            },
+            "state_drift_l2": 0.2796910308803448
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 318,
+                    "title": "Schindler's List (1993)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 199,
+                    "title": "Bridge on the River Kwai, The (1957)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 1176,
+                    "title": "Welcome To Sarajevo (1997)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 641,
+                    "title": "Paths of Glory (1957)",
+                    "personalized_score": 0.9096325032337735
+                },
+                {
+                    "item_id": 205,
+                    "title": "Patton (1970)",
+                    "personalized_score": 0.9096325032337735
+                }
+            ],
+            "picked_item": {
+                "item_id": 647,
+                "title": "Ran (1985)",
+                "score_at_pick": 0.9096325032337735
+            },
+            "state_drift_l2": 0.17051185751347753
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 318,
+                    "title": "Schindler's List (1993)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 199,
+                    "title": "Bridge on the River Kwai, The (1957)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 1176,
+                    "title": "Welcome To Sarajevo (1997)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 641,
+                    "title": "Paths of Glory (1957)",
+                    "personalized_score": 0.9669841409962865
+                },
+                {
+                    "item_id": 205,
+                    "title": "Patton (1970)",
+                    "personalized_score": 0.9669841409962865
+                }
+            ],
+            "picked_item": {
+                "item_id": 10,
+                "title": "Richard III (1995)",
+                "score_at_pick": 0.9669841409962865
+            },
+            "state_drift_l2": 0.1028882991543351
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 318,
+                    "title": "Schindler's List (1993)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 199,
+                    "title": "Bridge on the River Kwai, The (1957)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 1176,
+                    "title": "Welcome To Sarajevo (1997)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 641,
+                    "title": "Paths of Glory (1957)",
+                    "personalized_score": 0.9880508746789466
+                },
+                {
+                    "item_id": 205,
+                    "title": "Patton (1970)",
+                    "personalized_score": 0.9880508746789466
+                }
+            ],
+            "picked_item": {
+                "item_id": 199,
+                "title": "Bridge on the River Kwai, The (1957)",
+                "score_at_pick": 0.9880508746789466
+            },
+            "state_drift_l2": 0.061858398629198834
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 318,
+                    "title": "Schindler's List (1993)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 199,
+                    "title": "Bridge on the River Kwai, The (1957)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 1176,
+                    "title": "Welcome To Sarajevo (1997)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 641,
+                    "title": "Paths of Glory (1957)",
+                    "personalized_score": 0.9956900610554064
+                },
+                {
+                    "item_id": 205,
+                    "title": "Patton (1970)",
+                    "personalized_score": 0.9956900610554064
+                }
+            ],
+            "picked_item": {
+                "item_id": 180,
+                "title": "Apocalypse Now (1979)",
+                "score_at_pick": 0.9956900610554064
+            },
+            "state_drift_l2": 0.03714212046728979
+        }
+    ],
+    "summary": {
+        "session_name": "session_3_genre_rho_0.4",
+        "rho": 0.4,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 10,
+        "picked_sequence": [
+            "Schindler's List (1993)",
+            "Ran (1985)",
+            "Richard III (1995)",
+            "Bridge on the River Kwai, The (1957)",
+            "Apocalypse Now (1979)"
+        ],
+        "avg_state_drift_l2": 0.1304183413289292
+    }
+}

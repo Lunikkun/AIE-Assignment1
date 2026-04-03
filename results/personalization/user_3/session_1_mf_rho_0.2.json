@@ -1,0 +1,327 @@
+{
+    "user_id": 3,
+    "session_name": "session_1_mf_rho_0.2",
+    "rho": 0.2,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 995,
+                    "title": "Kiss Me, Guido (1997)",
+                    "personalized_score": 0.7999659800006298
+                },
+                {
+                    "item_id": 137,
+                    "title": "Big Night (1996)",
+                    "personalized_score": 0.7250100952007514
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.6999312075425528
+                },
+                {
+                    "item_id": 909,
+                    "title": "Dangerous Beauty (1998)",
+                    "personalized_score": 0.6964556003657751
+                },
+                {
+                    "item_id": 175,
+                    "title": "Brazil (1985)",
+                    "personalized_score": 0.6743885641634267
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.662131074843333
+                },
+                {
+                    "item_id": 1466,
+                    "title": "Margaret's Museum (1995)",
+                    "personalized_score": 0.6266178981716506
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.6016434335643048
+                },
+                {
+                    "item_id": 14,
+                    "title": "Postino, Il (1994)",
+                    "personalized_score": 0.5927503337420179
+                },
+                {
+                    "item_id": 19,
+                    "title": "Antonia's Line (1995)",
+                    "personalized_score": 0.5919377435341904
+                }
+            ],
+            "picked_item": {
+                "item_id": 995,
+                "title": "Kiss Me, Guido (1997)",
+                "score_at_pick": 0.7999659800006298
+            },
+            "state_drift_l2": 0.12428503987868833
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 995,
+                    "title": "Kiss Me, Guido (1997)",
+                    "personalized_score": 0.8682200600953429
+                },
+                {
+                    "item_id": 137,
+                    "title": "Big Night (1996)",
+                    "personalized_score": 0.7715187631967559
+                },
+                {
+                    "item_id": 909,
+                    "title": "Dangerous Beauty (1998)",
+                    "personalized_score": 0.7429025867423769
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.7239439198999615
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.7096040936542212
+                },
+                {
+                    "item_id": 175,
+                    "title": "Brazil (1985)",
+                    "personalized_score": 0.669946684200123
+                },
+                {
+                    "item_id": 14,
+                    "title": "Postino, Il (1994)",
+                    "personalized_score": 0.654112364243739
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.640380588356351
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.6380037456885657
+                },
+                {
+                    "item_id": 1466,
+                    "title": "Margaret's Museum (1995)",
+                    "personalized_score": 0.6230261540514013
+                }
+            ],
+            "picked_item": {
+                "item_id": 137,
+                "title": "Big Night (1996)",
+                "score_at_pick": 0.7715187631967559
+            },
+            "state_drift_l2": 0.1324553509494582
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 995,
+                    "title": "Kiss Me, Guido (1997)",
+                    "personalized_score": 0.8942989666056863
+                },
+                {
+                    "item_id": 137,
+                    "title": "Big Night (1996)",
+                    "personalized_score": 0.84883479356678
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.760151297058189
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.7365666257950267
+                },
+                {
+                    "item_id": 909,
+                    "title": "Dangerous Beauty (1998)",
+                    "personalized_score": 0.7278943968353394
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.7161743073352369
+                },
+                {
+                    "item_id": 14,
+                    "title": "Postino, Il (1994)",
+                    "personalized_score": 0.7118355063278087
+                },
+                {
+                    "item_id": 175,
+                    "title": "Brazil (1985)",
+                    "personalized_score": 0.6929813909054643
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.6843992995117993
+                },
+                {
+                    "item_id": 919,
+                    "title": "City of Lost Children, The (1995)",
+                    "personalized_score": 0.6671688717986939
+                }
+            ],
+            "picked_item": {
+                "item_id": 896,
+                "title": "Sweet Hereafter, The (1997)",
+                "score_at_pick": 0.760151297058189
+            },
+            "state_drift_l2": 0.13555458703369958
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 995,
+                    "title": "Kiss Me, Guido (1997)",
+                    "personalized_score": 0.8907504372824898
+                },
+                {
+                    "item_id": 137,
+                    "title": "Big Night (1996)",
+                    "personalized_score": 0.8656300945118659
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.8410409218448667
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.7737142723951831
+                },
+                {
+                    "item_id": 175,
+                    "title": "Brazil (1985)",
+                    "personalized_score": 0.7403352427630524
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.7265190213434108
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.7249389956765413
+                },
+                {
+                    "item_id": 14,
+                    "title": "Postino, Il (1994)",
+                    "personalized_score": 0.7174887265708296
+                },
+                {
+                    "item_id": 909,
+                    "title": "Dangerous Beauty (1998)",
+                    "personalized_score": 0.6905962142726461
+                },
+                {
+                    "item_id": 179,
+                    "title": "Clockwork Orange, A (1971)",
+                    "personalized_score": 0.6855216369806186
+                }
+            ],
+            "picked_item": {
+                "item_id": 1367,
+                "title": "Faust (1994)",
+                "score_at_pick": 0.7737142723951831
+            },
+            "state_drift_l2": 0.13184645718818325
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 995,
+                    "title": "Kiss Me, Guido (1997)",
+                    "personalized_score": 0.9027102029825139
+                },
+                {
+                    "item_id": 137,
+                    "title": "Big Night (1996)",
+                    "personalized_score": 0.8658889061905516
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.8586824799130685
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.850336951031151
+                },
+                {
+                    "item_id": 647,
+                    "title": "Ran (1985)",
+                    "personalized_score": 0.7633286989267873
+                },
+                {
+                    "item_id": 14,
+                    "title": "Postino, Il (1994)",
+                    "personalized_score": 0.7318521752615389
+                },
+                {
+                    "item_id": 919,
+                    "title": "City of Lost Children, The (1995)",
+                    "personalized_score": 0.7253093124556671
+                },
+                {
+                    "item_id": 179,
+                    "title": "Clockwork Orange, A (1971)",
+                    "personalized_score": 0.722045062423126
+                },
+                {
+                    "item_id": 175,
+                    "title": "Brazil (1985)",
+                    "personalized_score": 0.7093647871037632
+                },
+                {
+                    "item_id": 10,
+                    "title": "Richard III (1995)",
+                    "personalized_score": 0.7051564175317281
+                }
+            ],
+            "picked_item": {
+                "item_id": 647,
+                "title": "Ran (1985)",
+                "score_at_pick": 0.7633286989267873
+            },
+            "state_drift_l2": 0.13469712280303203
+        }
+    ],
+    "summary": {
+        "session_name": "session_1_mf_rho_0.2",
+        "rho": 0.2,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 7,
+        "picked_sequence": [
+            "Kiss Me, Guido (1997)",
+            "Big Night (1996)",
+            "Sweet Hereafter, The (1997)",
+            "Faust (1994)",
+            "Ran (1985)"
+        ],
+        "avg_state_drift_l2": 0.13176771157061226
+    }
+}

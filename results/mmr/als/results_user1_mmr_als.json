@@ -1,0 +1,162 @@
+{
+    "user_id": 1,
+    "base_ranker": "als",
+    "mmr_top10_by_alpha": {
+        "alpha_0.1": [
+            {
+                "item_id": 1183,
+                "title": "Cowboy Way, The (1994)",
+                "popularity": 15
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 457,
+                "title": "Free Willy 3: The Rescue (1997)",
+                "popularity": 22
+            },
+            {
+                "item_id": 361,
+                "title": "Incognito (1997)",
+                "popularity": 7
+            },
+            {
+                "item_id": 502,
+                "title": "Bananas (1971)",
+                "popularity": 44
+            },
+            {
+                "item_id": 1154,
+                "title": "Alphaville (1965)",
+                "popularity": 10
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 647,
+                "title": "Ran (1985)",
+                "popularity": 57
+            },
+            {
+                "item_id": 208,
+                "title": "Young Frankenstein (1974)",
+                "popularity": 156
+            },
+            {
+                "item_id": 1163,
+                "title": "Portrait of a Lady, The (1996)",
+                "popularity": 21
+            }
+        ],
+        "alpha_0.4": [
+            {
+                "item_id": 1183,
+                "title": "Cowboy Way, The (1994)",
+                "popularity": 15
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 457,
+                "title": "Free Willy 3: The Rescue (1997)",
+                "popularity": 22
+            },
+            {
+                "item_id": 361,
+                "title": "Incognito (1997)",
+                "popularity": 7
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 610,
+                "title": "Gigi (1958)",
+                "popularity": 34
+            },
+            {
+                "item_id": 502,
+                "title": "Bananas (1971)",
+                "popularity": 44
+            },
+            {
+                "item_id": 206,
+                "title": "Akira (1988)",
+                "popularity": 38
+            },
+            {
+                "item_id": 647,
+                "title": "Ran (1985)",
+                "popularity": 57
+            },
+            {
+                "item_id": 208,
+                "title": "Young Frankenstein (1974)",
+                "popularity": 156
+            }
+        ],
+        "alpha_0.7": [
+            {
+                "item_id": 1183,
+                "title": "Cowboy Way, The (1994)",
+                "popularity": 15
+            },
+            {
+                "item_id": 474,
+                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+                "popularity": 151
+            },
+            {
+                "item_id": 457,
+                "title": "Free Willy 3: The Rescue (1997)",
+                "popularity": 22
+            },
+            {
+                "item_id": 361,
+                "title": "Incognito (1997)",
+                "popularity": 7
+            },
+            {
+                "item_id": 1142,
+                "title": "When We Were Kings (1996)",
+                "popularity": 34
+            },
+            {
+                "item_id": 610,
+                "title": "Gigi (1958)",
+                "popularity": 34
+            },
+            {
+                "item_id": 114,
+                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                "popularity": 45
+            },
+            {
+                "item_id": 351,
+                "title": "Prophecy II, The (1998)",
+                "popularity": 14
+            },
+            {
+                "item_id": 502,
+                "title": "Bananas (1971)",
+                "popularity": 44
+            },
+            {
+                "item_id": 647,
+                "title": "Ran (1985)",
+                "popularity": 57
+            }
+        ]
+    }
+}

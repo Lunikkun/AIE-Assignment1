@@ -1,0 +1,67 @@
+{
+    "dataset_split": "u1.base / u1.test",
+    "relevance_definition": "rating >= 4",
+    "metrics": {
+        "M1": "Recall@10 (mean over users with |Gu| > 0)",
+        "M2": "Binary NDCG@10 (mean over users with |Gu| > 0)",
+        "M3": "Diversity@10 from genres (mean pairwise cosine distance)"
+    },
+    "results": {
+        "R1_popularity": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.11800967978994209,
+            "NDCG@10": 0.24507377260800475,
+            "Diversity@10": 0.7655742528922279
+        },
+        "R2_mf_sgd": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.030670175713986364,
+            "NDCG@10": 0.07588133172119592,
+            "Diversity@10": 0.7042034477311765
+        },
+        "R3_mf_als": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.004564885383117848,
+            "NDCG@10": 0.017405158495664593,
+            "Diversity@10": 0.7744744040073978
+        },
+        "R4_pairwise_mf_sgd": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.04419245229420252,
+            "NDCG@10": 0.10820498552819652,
+            "Diversity@10": 0.6886321275529541
+        },
+        "R4_pairwise_mf_als": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.010158548682511015,
+            "NDCG@10": 0.03721848736882839,
+            "Diversity@10": 0.7711195776090879
+        },
+        "R5_mmr_on_sgd_alpha_0.1": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.0308008938732273,
+            "NDCG@10": 0.07550793357030532,
+            "Diversity@10": 0.7443445165705991
+        },
+        "R5_mmr_on_sgd_alpha_0.4": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.03133046797055632,
+            "NDCG@10": 0.0766572706992791,
+            "Diversity@10": 0.8735338303448266
+        },
+        "R5_mmr_on_sgd_alpha_0.7": {
+            "k": 10,
+            "evaluated_users": 456,
+            "Recall@10": 0.0312006676749899,
+            "NDCG@10": 0.0751926522222929,
+            "Diversity@10": 0.9162407448016395
+        }
+    }
+}

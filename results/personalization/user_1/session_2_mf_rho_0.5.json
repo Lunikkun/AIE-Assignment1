@@ -1,0 +1,327 @@
+{
+    "user_id": 1,
+    "session_name": "session_2_mf_rho_0.5",
+    "rho": 0.5,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.8778565597753887
+                },
+                {
+                    "item_id": 100,
+                    "title": "Fargo (1996)",
+                    "personalized_score": 0.8617992820083392
+                },
+                {
+                    "item_id": 1142,
+                    "title": "When We Were Kings (1996)",
+                    "personalized_score": 0.861165306803985
+                },
+                {
+                    "item_id": 171,
+                    "title": "Delicatessen (1991)",
+                    "personalized_score": 0.8503920524006283
+                },
+                {
+                    "item_id": 750,
+                    "title": "Amistad (1997)",
+                    "personalized_score": 0.8431528085296359
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.8097780400200948
+                },
+                {
+                    "item_id": 522,
+                    "title": "Down by Law (1986)",
+                    "personalized_score": 0.8088148785174214
+                },
+                {
+                    "item_id": 513,
+                    "title": "Third Man, The (1949)",
+                    "personalized_score": 0.794246723596676
+                },
+                {
+                    "item_id": 663,
+                    "title": "Being There (1979)",
+                    "personalized_score": 0.7858600257872268
+                },
+                {
+                    "item_id": 523,
+                    "title": "Cool Hand Luke (1967)",
+                    "personalized_score": 0.7571052432947173
+                }
+            ],
+            "picked_item": {
+                "item_id": 408,
+                "title": "Close Shave, A (1995)",
+                "score_at_pick": 0.8778565597753887
+            },
+            "state_drift_l2": 0.24906578885896694
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.9689831164100302
+                },
+                {
+                    "item_id": 171,
+                    "title": "Delicatessen (1991)",
+                    "personalized_score": 0.8623987717210599
+                },
+                {
+                    "item_id": 663,
+                    "title": "Being There (1979)",
+                    "personalized_score": 0.8571619601233325
+                },
+                {
+                    "item_id": 100,
+                    "title": "Fargo (1996)",
+                    "personalized_score": 0.8506858164792959
+                },
+                {
+                    "item_id": 513,
+                    "title": "Third Man, The (1949)",
+                    "personalized_score": 0.8392374854228102
+                },
+                {
+                    "item_id": 750,
+                    "title": "Amistad (1997)",
+                    "personalized_score": 0.8167994157787593
+                },
+                {
+                    "item_id": 1142,
+                    "title": "When We Were Kings (1996)",
+                    "personalized_score": 0.7941114729731203
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.7927041258336283
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.787523099354895
+                },
+                {
+                    "item_id": 530,
+                    "title": "Man Who Would Be King, The (1975)",
+                    "personalized_score": 0.7871120060273602
+                }
+            ],
+            "picked_item": {
+                "item_id": 171,
+                "title": "Delicatessen (1991)",
+                "score_at_pick": 0.8623987717210599
+            },
+            "state_drift_l2": 0.26462528853500644
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 171,
+                    "title": "Delicatessen (1991)",
+                    "personalized_score": 0.9649867283338822
+                },
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.9274172951169415
+                },
+                {
+                    "item_id": 285,
+                    "title": "Secrets & Lies (1996)",
+                    "personalized_score": 0.8506200618956374
+                },
+                {
+                    "item_id": 513,
+                    "title": "Third Man, The (1949)",
+                    "personalized_score": 0.8342073260419473
+                },
+                {
+                    "item_id": 100,
+                    "title": "Fargo (1996)",
+                    "personalized_score": 0.8315939286085798
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.8211251947773792
+                },
+                {
+                    "item_id": 663,
+                    "title": "Being There (1979)",
+                    "personalized_score": 0.8184455277573294
+                },
+                {
+                    "item_id": 114,
+                    "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                    "personalized_score": 0.807940062061391
+                },
+                {
+                    "item_id": 750,
+                    "title": "Amistad (1997)",
+                    "personalized_score": 0.8043251391294854
+                },
+                {
+                    "item_id": 530,
+                    "title": "Man Who Would Be King, The (1975)",
+                    "personalized_score": 0.7885361528884994
+                }
+            ],
+            "picked_item": {
+                "item_id": 285,
+                "title": "Secrets & Lies (1996)",
+                "score_at_pick": 0.8506200618956374
+            },
+            "state_drift_l2": 0.2759334448907736
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 171,
+                    "title": "Delicatessen (1991)",
+                    "personalized_score": 0.9766760751754004
+                },
+                {
+                    "item_id": 285,
+                    "title": "Secrets & Lies (1996)",
+                    "personalized_score": 0.9619303669953552
+                },
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.8382125288286498
+                },
+                {
+                    "item_id": 513,
+                    "title": "Third Man, The (1949)",
+                    "personalized_score": 0.823315297492859
+                },
+                {
+                    "item_id": 100,
+                    "title": "Fargo (1996)",
+                    "personalized_score": 0.815836582588212
+                },
+                {
+                    "item_id": 656,
+                    "title": "M (1931)",
+                    "personalized_score": 0.7921516656544285
+                },
+                {
+                    "item_id": 114,
+                    "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+                    "personalized_score": 0.7851748205467872
+                },
+                {
+                    "item_id": 180,
+                    "title": "Apocalypse Now (1979)",
+                    "personalized_score": 0.778742777943302
+                },
+                {
+                    "item_id": 1021,
+                    "title": "8 1/2 (1963)",
+                    "personalized_score": 0.7534003646787515
+                },
+                {
+                    "item_id": 1142,
+                    "title": "When We Were Kings (1996)",
+                    "personalized_score": 0.7444610967700225
+                }
+            ],
+            "picked_item": {
+                "item_id": 513,
+                "title": "Third Man, The (1949)",
+                "score_at_pick": 0.823315297492859
+            },
+            "state_drift_l2": 0.300640482537464
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 513,
+                    "title": "Third Man, The (1949)",
+                    "personalized_score": 0.9548076501298205
+                },
+                {
+                    "item_id": 171,
+                    "title": "Delicatessen (1991)",
+                    "personalized_score": 0.9150725730641925
+                },
+                {
+                    "item_id": 285,
+                    "title": "Secrets & Lies (1996)",
+                    "personalized_score": 0.8963412752616053
+                },
+                {
+                    "item_id": 408,
+                    "title": "Close Shave, A (1995)",
+                    "personalized_score": 0.8747205330157779
+                },
+                {
+                    "item_id": 100,
+                    "title": "Fargo (1996)",
+                    "personalized_score": 0.8202717079415196
+                },
+                {
+                    "item_id": 1021,
+                    "title": "8 1/2 (1963)",
+                    "personalized_score": 0.8106872387836834
+                },
+                {
+                    "item_id": 1142,
+                    "title": "When We Were Kings (1996)",
+                    "personalized_score": 0.7839805428980462
+                },
+                {
+                    "item_id": 1367,
+                    "title": "Faust (1994)",
+                    "personalized_score": 0.7645605060050843
+                },
+                {
+                    "item_id": 543,
+                    "title": "Mis\u00e9rables, Les (1995)",
+                    "personalized_score": 0.7462098868511069
+                },
+                {
+                    "item_id": 60,
+                    "title": "Three Colors: Blue (1993)",
+                    "personalized_score": 0.7412871558398899
+                }
+            ],
+            "picked_item": {
+                "item_id": 100,
+                "title": "Fargo (1996)",
+                "score_at_pick": 0.8202717079415196
+            },
+            "state_drift_l2": 0.30328070961304565
+        }
+    ],
+    "summary": {
+        "session_name": "session_2_mf_rho_0.5",
+        "rho": 0.5,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 5,
+        "picked_sequence": [
+            "Close Shave, A (1995)",
+            "Delicatessen (1991)",
+            "Secrets & Lies (1996)",
+            "Third Man, The (1949)",
+            "Fargo (1996)"
+        ],
+        "avg_state_drift_l2": 0.2787091428870513
+    }
+}

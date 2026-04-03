@@ -1,0 +1,22 @@
+{
+    "user_id": 1,
+    "requirement_check": {
+        "sessions": 3,
+        "rounds_per_session": 5,
+        "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+        "item_representation_used": [
+            "MF q_i",
+            "Genre vector"
+        ]
+    },
+    "discussion": [
+        "session_1_mf_rho_0.2: overlap top10 round1->round5 = 8/10, rho=0.2, mean state drift=0.1074.",
+        "session_2_mf_rho_0.5: overlap top10 round1->round5 = 5/10, rho=0.5, mean state drift=0.2787.",
+        "session_3_genre_rho_0.4: overlap top10 round1->round5 = 10/10, rho=0.4, mean state drift=0.1867."
+    ],
+    "session_files": [
+        "session_1_mf_rho_0.2.json",
+        "session_2_mf_rho_0.5.json",
+        "session_3_genre_rho_0.4.json"
+    ]
+}
