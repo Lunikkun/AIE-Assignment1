@@ -3,7 +3,7 @@ import os
 import pickle
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import SGDClassifier
 
 
 def _build_output_path(filename, subfolder):
@@ -72,47 +72,61 @@ def save_results(user_id, ranked_pop, ranked_mf, mf_model, movies, train_ratings
     
     print(f"Saved in {output_path}")
 
-def build_pairwise_data(train_ratings, mf_model, user_map, item_map):
+def build_pairwise_data(train_ratings, mf_model, user_map, item_map, max_pairs_per_user=50):
     popularity = train_ratings.groupby('item_id').size().to_dict()
+    rng = np.random.default_rng(42)
     X, y = [], []
     for u in train_ratings['user_id'].unique():
         user_rows = train_ratings[train_ratings['user_id'] == u]
-        for i_row in user_rows.itertuples(index=False):
-            for j_row in user_rows.itertuples(index=False):
-                if i_row.item_id == j_row.item_id:
-                    continue  
-                u_idx = user_map[u]
-                i_idx = item_map[i_row.item_id]
-                j_idx = item_map[j_row.item_id]
-                fi = np.array([
-                    mf_model.predict(u_idx, i_idx),
-                    mf_model.bu[u_idx],
-                    mf_model.bi[i_idx],
-                    popularity.get(i_row.item_id, 0),
-                    1.0
-                ])
-                fj = np.array([
-                    mf_model.predict(u_idx, j_idx),
-                    mf_model.bu[u_idx],
-                    mf_model.bi[j_idx],
-                    popularity.get(j_row.item_id, 0),
-                    1.0
-                ])
-                if i_row.rating > j_row.rating:
-                    X.append(fi - fj)
-                    y.append(1)
-                    X.append(fj - fi) 
-                    y.append(0)
-                elif i_row.rating < j_row.rating:
-                    X.append(fj - fi)
-                    y.append(1)
-                    X.append(fi - fj)
-                    y.append(0)
+        rows_list = list(user_rows.itertuples(index=False))
+        u_idx = user_map[u]
+
+        pairs = [
+            (i_row, j_row)
+            for idx_i, i_row in enumerate(rows_list)
+            for j_row in rows_list[idx_i + 1:]
+            if i_row.rating != j_row.rating
+        ]
+
+        if len(pairs) > max_pairs_per_user:
+            chosen = rng.choice(len(pairs), size=max_pairs_per_user, replace=False)
+            pairs = [pairs[k] for k in chosen]
+
+        for i_row, j_row in pairs:
+            i_idx = item_map[i_row.item_id]
+            j_idx = item_map[j_row.item_id]
+            fi = np.array([
+                mf_model.predict(u_idx, i_idx),
+                mf_model.bu[u_idx],
+                mf_model.bi[i_idx],
+                popularity.get(i_row.item_id, 0),
+                1.0
+            ])
+            fj = np.array([
+                mf_model.predict(u_idx, j_idx),
+                mf_model.bu[u_idx],
+                mf_model.bi[j_idx],
+                popularity.get(j_row.item_id, 0),
+                1.0
+            ])
+            if i_row.rating > j_row.rating:
+                X.append(fi - fj); y.append(1)
+                X.append(fj - fi); y.append(0)
+            else:
+                X.append(fj - fi); y.append(1)
+                X.append(fi - fj); y.append(0)
     return np.vstack(X), np.array(y), popularity
 
-def train_pairwise_ranker(train_ratings, mf_model, user_map, item_map):
+def train_pairwise_ranker(train_ratings, mf_model, user_map, item_map, max_epochs=8):
     X, y, popularity = build_pairwise_data(train_ratings, mf_model, user_map, item_map)
-    model = LogisticRegression(max_iter=1000)
+    model = SGDClassifier(
+        loss="log_loss",
+        max_iter=max_epochs,
+        tol=None,
+        learning_rate="constant",
+        eta0=0.01,
+        random_state=42,
+    )
     model.fit(X, y)
     return model, popularity
 

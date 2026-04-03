@@ -1,0 +1,659 @@
+{
+    "user_id": 1,
+    "session_name": "session_2_mf_rho_0.3",
+    "rho": 0.3,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 185,
+                    "title": "Psycho (1960)",
+                    "personalized_score": 0.5269232781108419
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.5260242551587975
+                },
+                {
+                    "item_id": 603,
+                    "title": "Rear Window (1954)",
+                    "personalized_score": 0.4426139223846081
+                },
+                {
+                    "item_id": 479,
+                    "title": "Vertigo (1958)",
+                    "personalized_score": 0.4229971197050945
+                },
+                {
+                    "item_id": 487,
+                    "title": "Roman Holiday (1953)",
+                    "personalized_score": 0.41026644073543855
+                },
+                {
+                    "item_id": 432,
+                    "title": "Fantasia (1940)",
+                    "personalized_score": 0.3886595601083254
+                },
+                {
+                    "item_id": 656,
+                    "title": "M (1931)",
+                    "personalized_score": 0.3619875918777534
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.3605022086469123
+                },
+                {
+                    "item_id": 483,
+                    "title": "Casablanca (1942)",
+                    "personalized_score": 0.3497319958110791
+                },
+                {
+                    "item_id": 320,
+                    "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
+                    "personalized_score": 0.34423407193031136
+                }
+            ],
+            "picked_item": {
+                "item_id": 185,
+                "title": "Psycho (1960)",
+                "score_at_pick": 0.5269232781108419
+            },
+            "state_drift_l2": 0.28783311074581824
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 185,
+                    "title": "Psycho (1960)",
+                    "personalized_score": 0.7471824226816642
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.4988690412067517
+                },
+                {
+                    "item_id": 603,
+                    "title": "Rear Window (1954)",
+                    "personalized_score": 0.4572400295971886
+                },
+                {
+                    "item_id": 432,
+                    "title": "Fantasia (1940)",
+                    "personalized_score": 0.42889303047870764
+                },
+                {
+                    "item_id": 483,
+                    "title": "Casablanca (1942)",
+                    "personalized_score": 0.4177219646732626
+                },
+                {
+                    "item_id": 479,
+                    "title": "Vertigo (1958)",
+                    "personalized_score": 0.3730920757075441
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.3716831941713292
+                },
+                {
+                    "item_id": 320,
+                    "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
+                    "personalized_score": 0.3680559135439057
+                },
+                {
+                    "item_id": 488,
+                    "title": "Sunset Blvd. (1950)",
+                    "personalized_score": 0.36718265097018543
+                },
+                {
+                    "item_id": 98,
+                    "title": "Silence of the Lambs, The (1991)",
+                    "personalized_score": 0.34524016035819316
+                }
+            ],
+            "picked_item": {
+                "item_id": 190,
+                "title": "Henry V (1989)",
+                "score_at_pick": 0.4988690412067517
+            },
+            "state_drift_l2": 0.29586988157837224
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.7306361235017808
+                },
+                {
+                    "item_id": 185,
+                    "title": "Psycho (1960)",
+                    "personalized_score": 0.6768058388758516
+                },
+                {
+                    "item_id": 432,
+                    "title": "Fantasia (1940)",
+                    "personalized_score": 0.5288561646293329
+                },
+                {
+                    "item_id": 603,
+                    "title": "Rear Window (1954)",
+                    "personalized_score": 0.4122067987797931
+                },
+                {
+                    "item_id": 488,
+                    "title": "Sunset Blvd. (1950)",
+                    "personalized_score": 0.3726474424702262
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.34130793825904826
+                },
+                {
+                    "item_id": 479,
+                    "title": "Vertigo (1958)",
+                    "personalized_score": 0.3366682896232034
+                },
+                {
+                    "item_id": 483,
+                    "title": "Casablanca (1942)",
+                    "personalized_score": 0.3012257660285334
+                },
+                {
+                    "item_id": 487,
+                    "title": "Roman Holiday (1953)",
+                    "personalized_score": 0.281280128397344
+                },
+                {
+                    "item_id": 651,
+                    "title": "Glory (1989)",
+                    "personalized_score": 0.28113824609647986
+                }
+            ],
+            "picked_item": {
+                "item_id": 432,
+                "title": "Fantasia (1940)",
+                "score_at_pick": 0.5288561646293329
+            },
+            "state_drift_l2": 0.2872688622713365
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.7605268872472906
+                },
+                {
+                    "item_id": 432,
+                    "title": "Fantasia (1940)",
+                    "personalized_score": 0.748314944287751
+                },
+                {
+                    "item_id": 185,
+                    "title": "Psycho (1960)",
+                    "personalized_score": 0.6538879203516775
+                },
+                {
+                    "item_id": 488,
+                    "title": "Sunset Blvd. (1950)",
+                    "personalized_score": 0.40420261409005553
+                },
+                {
+                    "item_id": 603,
+                    "title": "Rear Window (1954)",
+                    "personalized_score": 0.3953716883891141
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.37795139948274564
+                },
+                {
+                    "item_id": 483,
+                    "title": "Casablanca (1942)",
+                    "personalized_score": 0.32939937243697337
+                },
+                {
+                    "item_id": 487,
+                    "title": "Roman Holiday (1953)",
+                    "personalized_score": 0.300885481292393
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.2976939385825732
+                },
+                {
+                    "item_id": 320,
+                    "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
+                    "personalized_score": 0.29351440573243737
+                }
+            ],
+            "picked_item": {
+                "item_id": 488,
+                "title": "Sunset Blvd. (1950)",
+                "score_at_pick": 0.40420261409005553
+            },
+            "state_drift_l2": 0.3210644443256061
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 432,
+                    "title": "Fantasia (1940)",
+                    "personalized_score": 0.721772790566503
+                },
+                {
+                    "item_id": 190,
+                    "title": "Henry V (1989)",
+                    "personalized_score": 0.7003866848419594
+                },
+                {
+                    "item_id": 488,
+                    "title": "Sunset Blvd. (1950)",
+                    "personalized_score": 0.673228681589116
+                },
+                {
+                    "item_id": 185,
+                    "title": "Psycho (1960)",
+                    "personalized_score": 0.6324982332270231
+                },
+                {
+                    "item_id": 528,
+                    "title": "Killing Fields, The (1984)",
+                    "personalized_score": 0.42688475931500647
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.34465232952430236
+                },
+                {
+                    "item_id": 896,
+                    "title": "Sweet Hereafter, The (1997)",
+                    "personalized_score": 0.34231254471931116
+                },
+                {
+                    "item_id": 603,
+                    "title": "Rear Window (1954)",
+                    "personalized_score": 0.328297239640234
+                },
+                {
+                    "item_id": 315,
+                    "title": "Apt Pupil (1998)",
+                    "personalized_score": 0.29274773811158694
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.28435632797242955
+                }
+            ],
+            "picked_item": {
+                "item_id": 528,
+                "title": "Killing Fields, The (1984)",
+                "score_at_pick": 0.42688475931500647
+            },
+            "state_drift_l2": 0.31528024860527504
+        }
+    ],
+    "summary": {
+        "session_name": "session_2_mf_rho_0.3",
+        "rho": 0.3,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 5,
+        "picked_sequence": [
+            "Psycho (1960)",
+            "Henry V (1989)",
+            "Fantasia (1940)",
+            "Sunset Blvd. (1950)",
+            "Killing Fields, The (1984)"
+        ],
+        "avg_state_drift_l2": 0.3014633095052816
+    },
+    "jsonl_records": [
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 118,
+            "user_id": 1,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 1,
+            "top_k": [
+                361,
+                482,
+                36,
+                125,
+                485,
+                50,
+                1047,
+                754,
+                174,
+                819
+            ],
+            "top_k_item_ids": [
+                185,
+                190,
+                603,
+                479,
+                487,
+                432,
+                656,
+                528,
+                483,
+                320
+            ],
+            "metrics": {
+                "Recall@10": 0.02531645569620253,
+                "NDCG@10": 0.3589542101716347,
+                "Diversity@10": 0.8500188984154378
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 361,
+                "item_id": 185,
+                "title": "Psycho (1960)",
+                "score_at_pick": 0.5269232781108419
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 2,
+                        "value": -0.4467307392261955
+                    },
+                    {
+                        "index": 15,
+                        "value": 0.3900181961182574
+                    },
+                    {
+                        "index": 9,
+                        "value": 0.3205949805813201
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 118,
+            "user_id": 1,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 2,
+            "top_k": [
+                361,
+                482,
+                36,
+                50,
+                174,
+                125,
+                754,
+                819,
+                611,
+                31
+            ],
+            "top_k_item_ids": [
+                185,
+                190,
+                603,
+                432,
+                483,
+                479,
+                528,
+                320,
+                488,
+                98
+            ],
+            "metrics": {
+                "Recall@10": 0.0379746835443038,
+                "NDCG@10": 0.42257499837058643,
+                "Diversity@10": 0.8311262298434615
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 482,
+                "item_id": 190,
+                "title": "Henry V (1989)",
+                "score_at_pick": 0.4988690412067517
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 15,
+                        "value": 0.49595933736645426
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.4126520194419926
+                    },
+                    {
+                        "index": 7,
+                        "value": -0.33188015398233844
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 118,
+            "user_id": 1,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 3,
+            "top_k": [
+                482,
+                361,
+                50,
+                36,
+                611,
+                754,
+                125,
+                174,
+                485,
+                629
+            ],
+            "top_k_item_ids": [
+                190,
+                185,
+                432,
+                603,
+                488,
+                528,
+                479,
+                483,
+                487,
+                651
+            ],
+            "metrics": {
+                "Recall@10": 0.02531645569620253,
+                "NDCG@10": 0.3589542101716347,
+                "Diversity@10": 0.8244671225429699
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 50,
+                "item_id": 432,
+                "title": "Fantasia (1940)",
+                "score_at_pick": 0.5288561646293329
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 15,
+                        "value": 0.4799092491008466
+                    },
+                    {
+                        "index": 7,
+                        "value": -0.40485574265673047
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.3764954405770968
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 118,
+            "user_id": 1,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 4,
+            "top_k": [
+                482,
+                50,
+                361,
+                611,
+                36,
+                754,
+                174,
+                485,
+                1120,
+                819
+            ],
+            "top_k_item_ids": [
+                190,
+                432,
+                185,
+                488,
+                603,
+                528,
+                483,
+                487,
+                896,
+                320
+            ],
+            "metrics": {
+                "Recall@10": 0.02531645569620253,
+                "NDCG@10": 0.33013764944712026,
+                "Diversity@10": 0.8626081067079312
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 611,
+                "item_id": 488,
+                "title": "Sunset Blvd. (1950)",
+                "score_at_pick": 0.40420261409005553
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 15,
+                        "value": 0.5143971781394999
+                    },
+                    {
+                        "index": 7,
+                        "value": -0.38864014877672143
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.360527778708166
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 118,
+            "user_id": 1,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 5,
+            "top_k": [
+                50,
+                482,
+                611,
+                361,
+                754,
+                1063,
+                1120,
+                36,
+                325,
+                1097
+            ],
+            "top_k_item_ids": [
+                432,
+                190,
+                488,
+                185,
+                528,
+                694,
+                896,
+                603,
+                315,
+                646
+            ],
+            "metrics": {
+                "Recall@10": 0.02531645569620253,
+                "NDCG@10": 0.23365080824310533,
+                "Diversity@10": 0.866329617918289
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 754,
+                "item_id": 528,
+                "title": "Killing Fields, The (1984)",
+                "score_at_pick": 0.42688475931500647
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 15,
+                        "value": 0.5042972128953637
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.38025540571291766
+                    },
+                    {
+                        "index": 7,
+                        "value": -0.3569199104414182
+                    }
+                ]
+            }
+        }
+    ]
+}

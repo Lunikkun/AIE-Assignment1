@@ -16,12 +16,22 @@ from _utils import (
     save_pairwise_artifacts,
 )
 from mmr import build_genre_matrix, mmr_rerank_from_ranking
+from metrics import build_relevant_items_map
 from personalization_ema import run_personalization_demo
 
 np.random.seed(42)
 
+FAST_MODE        = False
+N_FACTORS        = 20
+REG_LAMBDA       = 0.05
+SGD_LR           = 0.01
+SGD_EPOCHS       = 10
+ALS_ITERS        = 8
+PAIRWISE_EPOCHS  = 8
+MMR_TOP_M        = 80
+FAST_USER_SUBSET = 300
+
 def load_data():
-    """Load MovieLens 100K dataset and preprocess."""
     print("[LOAD] Reading MovieLens 100K dataset...")
     
     ratings = pd.read_csv(
@@ -70,28 +80,48 @@ def stage_baseline(candidates_user, train_ratings, movies):
     return ranked
 
 def stage_matrix_factorization(num_users, num_items, train_ratings, user_map, item_map):
+    n_factors = N_FACTORS
+    sgd_epochs = SGD_EPOCHS
+    als_epochs = ALS_ITERS
 
-    print("[R2] MF-SGD...")
-    mf_sgd_model = MF_SGD(num_users, num_items, n_factors=10, reg=0.1, lr=0.01, patience=3)
-    mf_sgd_model.train(train_ratings, user_map, item_map, epochs=50)
+    print(f"[R2] MF-SGD (n_factors={n_factors}, epochs={sgd_epochs})...")
+    mf_sgd_model = MF_SGD(
+        num_users,
+        num_items,
+        n_factors=n_factors,
+        reg=REG_LAMBDA,
+        lr=SGD_LR,
+        patience=sgd_epochs + 1,
+    )
+    mf_sgd_model.train(train_ratings, user_map, item_map, epochs=sgd_epochs)
     mf_sgd_model.save("results/models/mf_sgd_u1.npz")
-    
-    print("[R3] MF-ALS...")
-    mf_als_model = MF_ALS(num_users, num_items, patience=3)
-    mf_als_model.train(train_ratings, user_map, item_map, epochs=50)
+
+    print(f"[R3] MF-ALS (n_factors={n_factors}, epochs={als_epochs})...")
+    mf_als_model = MF_ALS(
+        num_users,
+        num_items,
+        n_factors=n_factors,
+        reg=REG_LAMBDA,
+        patience=als_epochs + 1,
+    )
+    mf_als_model.train(train_ratings, user_map, item_map, epochs=als_epochs)
     mf_als_model.save("results/models/mf_als_u1.npz")
-    
+
     return mf_sgd_model, mf_als_model
 
 def stage_pairwise_ltr(train_ratings, mf_sgd_model, mf_als_model, user_map, item_map):
 
     print("[R4.SGD] Pairwise LTR on MF-SGD...")
-    pairwise_model_sgd, popularity_sgd = train_pairwise_ranker(train_ratings, mf_sgd_model, user_map, item_map)
+    pairwise_model_sgd, popularity_sgd = train_pairwise_ranker(
+        train_ratings, mf_sgd_model, user_map, item_map, max_epochs=PAIRWISE_EPOCHS
+    )
     save_pairwise_artifacts("results/models/pairwise_sgd_u1.pkl", pairwise_model_sgd, popularity_sgd)
     print(f"[R4.SGD] Saved")
     
     print("[R4.ALS] Pairwise LTR on MF-ALS...")
-    pairwise_model_als, popularity_als = train_pairwise_ranker(train_ratings, mf_als_model, user_map, item_map)
+    pairwise_model_als, popularity_als = train_pairwise_ranker(
+        train_ratings, mf_als_model, user_map, item_map, max_epochs=PAIRWISE_EPOCHS
+    )
     save_pairwise_artifacts("results/models/pairwise_als_u1.pkl", pairwise_model_als, popularity_als)
     print(f"[R4.ALS] Saved")
     
@@ -131,7 +161,7 @@ def stage_mmr_reranking(
                 genre_matrix,
                 item_to_idx,
                 alpha=alpha,
-                top_M=50,
+                top_M=MMR_TOP_M,
                 output_K=10
             )
             for alpha in alphas
@@ -140,9 +170,14 @@ def stage_mmr_reranking(
         print(f"[R5] MMR applied to {base_name}: alphas={alphas}")
 
 def stage_personalization(
-    train_ratings, mf_sgd_model, movies, user_map, item_map, all_items
+    train_ratings, test_ratings, mf_sgd_model, movies, user_map, item_map, all_items
 ): 
-    target_users = [1, 2, 3]
+    relevant_map = build_relevant_items_map(test_ratings, threshold=4)
+    target_users = [uid for uid in [1, 2, 3] if uid in user_map]
+
+    if not target_users:
+        print("[PERSONALIZATION] No target users available in current split.")
+        return
     
     for p_user_id in target_users:
         print(f"\n[PERSONALIZATION] User {p_user_id}: Computing base SGD ranking...")
@@ -160,6 +195,7 @@ def stage_personalization(
             out_dir="results/personalization",
             top_m=100,
             n_rounds=5,
+            relevant_map=relevant_map,
         )
         
         print(f"[PERSONALIZATION] User {p_user_id} Summary:")
@@ -168,7 +204,22 @@ def stage_personalization(
 
 def main():
 
+    session_log_path = "results/metrics/session_log.jsonl"
+    if os.path.exists(session_log_path):
+        os.remove(session_log_path)
+
     ratings, movies, train_ratings, test_ratings, user_ids, item_ids, user_map, item_map, all_items = load_data()
+
+    if FAST_MODE:
+        fast_users = set(user_ids[:FAST_USER_SUBSET])
+        train_ratings = train_ratings[train_ratings["user_id"].isin(fast_users)].copy()
+        test_ratings = test_ratings[test_ratings["user_id"].isin(fast_users)].copy()
+        user_ids = np.array(sorted(train_ratings["user_id"].unique()))
+        item_ids = np.array(sorted(train_ratings["item_id"].unique()))
+        user_map = {uid: i for i, uid in enumerate(user_ids)}
+        item_map = {iid: i for i, iid in enumerate(item_ids)}
+        all_items = sorted(train_ratings["item_id"].unique())
+        print(f"[FAST_MODE] Training users limited to first {FAST_USER_SUBSET}. Active users: {len(user_ids)}")
     
     candidates_user = get_candidates(1, train_ratings, all_items)
     
@@ -203,7 +254,7 @@ def main():
     )
     
     stage_personalization(
-        train_ratings, mf_sgd_model, movies, user_map, item_map, all_items
+        train_ratings, test_ratings, mf_sgd_model, movies, user_map, item_map, all_items
     )
 
 

@@ -6,7 +6,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 def build_relevant_items_map(test_ratings, threshold=4):
-    """Map user_id -> set of relevant items (rating >= threshold [4])."""
     relevant = {}
     grouped = test_ratings.groupby("user_id")
     for user_id, rows in grouped:

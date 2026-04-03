@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 class MF_ALS:
-    def __init__(self, n_users, n_items, n_factors=10, reg=0.1, patience=2):
+    def __init__(self, n_users, n_items, n_factors=20, reg=0.05, patience=2):
         self.n_users = n_users
         self.n_items = n_items
         self.n_factors = n_factors
@@ -41,20 +41,20 @@ class MF_ALS:
             for i in range(self.n_items):
                 users_rated = train_data[train_data['item_id'] == item_ids_list[i]]
                 if not users_rated.empty:
-                    u_indices = [user_map[u] for u in users_rated['user_id']]
-                    ratings_vec = users_rated['rating'] - self.mu - self.bu[u_indices]
+                    u_indices = [user_map[uid] for uid in users_rated['user_id']]
+                    ratings_vec = users_rated['rating'].values - self.mu - self.bu[u_indices] - self.bi[i]
                     P_u = self.P[u_indices]
                     self.Q[i] = np.linalg.solve(P_u.T @ P_u + self.reg * np.eye(self.n_factors), P_u.T @ ratings_vec)
-                    self.bi[i] = np.mean(ratings_vec - P_u @ self.Q[i])
+                    self.bi[i] = np.mean(users_rated['rating'].values - self.mu - self.bu[u_indices] - P_u @ self.Q[i])
 
             for u in range(self.n_users):
                 items_rated = train_data[train_data['user_id'] == user_ids_list[u]]
                 if not items_rated.empty:
-                    i_indices = [item_map[i] for i in items_rated['item_id']]
-                    ratings_vec = items_rated['rating'] - self.mu - self.bi[i_indices]
+                    i_indices = [item_map[iid] for iid in items_rated['item_id']]
+                    ratings_vec = items_rated['rating'].values - self.mu - self.bu[u] - self.bi[i_indices]
                     Q_i = self.Q[i_indices]
                     self.P[u] = np.linalg.solve(Q_i.T @ Q_i + self.reg * np.eye(self.n_factors), Q_i.T @ ratings_vec)
-                    self.bu[u] = np.mean(ratings_vec - Q_i @ self.P[u])
+                    self.bu[u] = np.mean(items_rated['rating'].values - self.mu - self.bi[i_indices] - Q_i @ self.P[u])
             
             total_loss = 0
             for _, row in train_data.iterrows():

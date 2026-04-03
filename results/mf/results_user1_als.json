@@ -54,64 +54,64 @@
     ],
     "mf_top10": [
         {
-            "item_id": 1183,
-            "title": "Cowboy Way, The (1994)",
-            "pred_score": 5.996589205101159
+            "item_id": 615,
+            "title": "39 Steps, The (1935)",
+            "pred_score": 7.526252956393812
         },
         {
-            "item_id": 474,
-            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-            "pred_score": 5.394851950597722
+            "item_id": 410,
+            "title": "Kingpin (1996)",
+            "pred_score": 7.511645461089212
         },
         {
-            "item_id": 457,
-            "title": "Free Willy 3: The Rescue (1997)",
-            "pred_score": 5.341575087504483
+            "item_id": 780,
+            "title": "Dumb & Dumber (1994)",
+            "pred_score": 7.464259531329284
         },
         {
-            "item_id": 1154,
-            "title": "Alphaville (1965)",
-            "pred_score": 5.315215133946653
+            "item_id": 1098,
+            "title": "Flirting With Disaster (1996)",
+            "pred_score": 7.452538732279388
         },
         {
-            "item_id": 502,
-            "title": "Bananas (1971)",
-            "pred_score": 5.305059578019283
+            "item_id": 880,
+            "title": "Soul Food (1997)",
+            "pred_score": 7.452450341651833
         },
         {
-            "item_id": 361,
-            "title": "Incognito (1997)",
-            "pred_score": 5.27003920211544
+            "item_id": 342,
+            "title": "Man Who Knew Too Little, The (1997)",
+            "pred_score": 7.38917996775618
         },
         {
-            "item_id": 647,
-            "title": "Ran (1985)",
-            "pred_score": 5.218252079179871
+            "item_id": 898,
+            "title": "Postman, The (1997)",
+            "pred_score": 7.286774074179904
         },
         {
-            "item_id": 1142,
-            "title": "When We Were Kings (1996)",
-            "pred_score": 5.207738478287073
+            "item_id": 253,
+            "title": "Pillow Book, The (1995)",
+            "pred_score": 7.242936122193745
         },
         {
-            "item_id": 1163,
-            "title": "Portrait of a Lady, The (1996)",
-            "pred_score": 5.168852379149284
+            "item_id": 614,
+            "title": "Giant (1956)",
+            "pred_score": 7.136029776826459
         },
         {
-            "item_id": 208,
-            "title": "Young Frankenstein (1974)",
-            "pred_score": 5.1673046507492115
+            "item_id": 672,
+            "title": "Candyman (1992)",
+            "pred_score": 7.079966753604949
         }
     ],
     "metrics": {
-        "final_train_loss": 1.346651539753428
+        "final_train_loss": 2.007419413403689
     },
     "model_params": {
-        "n_factors": 10,
-        "reg": 0.1,
+        "n_factors": 20,
+        "reg": 0.05,
         "lr": null,
-        "patience": 3
+        "patience": 9
     },
     "model_type": "als"
 }

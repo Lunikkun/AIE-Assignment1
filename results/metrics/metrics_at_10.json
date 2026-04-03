@@ -1,10 +1,11 @@
 {
     "dataset_split": "u1.base / u1.test",
     "relevance_definition": "rating >= 4",
+    "fast_mode": false,
     "metrics": {
-        "M1": "Recall@10 (mean over users with |Gu| > 0)",
-        "M2": "Binary NDCG@10 (mean over users with |Gu| > 0)",
-        "M3": "Diversity@10 from genres (mean pairwise cosine distance)"
+        "M1": "Recall@10 (averaged over users with |Gu|>0)",
+        "M2": "NDCG@10 binary (averaged over users with |Gu|>0)",
+        "M3": "Diversity@10 from genre vectors (average pairwise cosine distance)"
     },
     "results": {
         "R1_popularity": {
@@ -17,51 +18,57 @@
         "R2_mf_sgd": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.030670175713986364,
-            "NDCG@10": 0.07588133172119592,
-            "Diversity@10": 0.7042034477311765
+            "Recall@10": 0.044369048023046705,
+            "NDCG@10": 0.11397135818817779,
+            "Diversity@10": 0.7687743159934843
         },
         "R3_mf_als": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.004564885383117848,
-            "NDCG@10": 0.017405158495664593,
-            "Diversity@10": 0.7744744040073978
+            "Recall@10": 0.007747756392249174,
+            "NDCG@10": 0.026696793269378488,
+            "Diversity@10": 0.7402517099043628
         },
         "R4_pairwise_mf_sgd": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.04419245229420252,
-            "NDCG@10": 0.10820498552819652,
-            "Diversity@10": 0.6886321275529541
+            "Recall@10": 0.027263687069872245,
+            "NDCG@10": 0.08013990713110179,
+            "Diversity@10": 0.6925173521115918
         },
         "R4_pairwise_mf_als": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.010158548682511015,
-            "NDCG@10": 0.03721848736882839,
-            "Diversity@10": 0.7711195776090879
+            "Recall@10": 0.0290520676428805,
+            "NDCG@10": 0.08255285088535151,
+            "Diversity@10": 0.6969526845707346
         },
         "R5_mmr_on_sgd_alpha_0.1": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.0308008938732273,
-            "NDCG@10": 0.07550793357030532,
-            "Diversity@10": 0.7443445165705991
+            "Recall@10": 0.04506025782888396,
+            "NDCG@10": 0.1182376907955529,
+            "Diversity@10": 0.8159305254064575
         },
         "R5_mmr_on_sgd_alpha_0.4": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.03133046797055632,
-            "NDCG@10": 0.0766572706992791,
-            "Diversity@10": 0.8735338303448266
+            "Recall@10": 0.03955872382751933,
+            "NDCG@10": 0.10918051108695324,
+            "Diversity@10": 0.9113571434732218
         },
         "R5_mmr_on_sgd_alpha_0.7": {
             "k": 10,
             "evaluated_users": 456,
-            "Recall@10": 0.0312006676749899,
-            "NDCG@10": 0.0751926522222929,
-            "Diversity@10": 0.9162407448016395
+            "Recall@10": 0.033857258006717524,
+            "NDCG@10": 0.09753615575448335,
+            "Diversity@10": 0.9508665543321618
         }
+    },
+    "leakage_checks": {
+        "triggered": true,
+        "seen_items_excluded": true,
+        "popularity_source_train_only": true,
+        "split_consistency": true
     }
 }

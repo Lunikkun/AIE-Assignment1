@@ -1,0 +1,659 @@
+{
+    "user_id": 3,
+    "session_name": "session_1_mf_rho_0.1",
+    "rho": 0.1,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 165,
+                    "title": "Jean de Florette (1986)",
+                    "personalized_score": 0.5964647710043294
+                },
+                {
+                    "item_id": 1019,
+                    "title": "Die xue shuang xiong (Killer, The) (1989)",
+                    "personalized_score": 0.5414202118608193
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.4654628742576118
+                },
+                {
+                    "item_id": 589,
+                    "title": "Wild Bunch, The (1969)",
+                    "personalized_score": 0.44969023646176753
+                },
+                {
+                    "item_id": 963,
+                    "title": "Some Folks Call It a Sling Blade (1993)",
+                    "personalized_score": 0.44652586359784324
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.40008894301643194
+                },
+                {
+                    "item_id": 195,
+                    "title": "Terminator, The (1984)",
+                    "personalized_score": 0.39720538268101785
+                },
+                {
+                    "item_id": 183,
+                    "title": "Alien (1979)",
+                    "personalized_score": 0.37685413395215306
+                },
+                {
+                    "item_id": 48,
+                    "title": "Hoop Dreams (1994)",
+                    "personalized_score": 0.37196437101831487
+                },
+                {
+                    "item_id": 87,
+                    "title": "Searching for Bobby Fischer (1993)",
+                    "personalized_score": 0.3657770844692528
+                }
+            ],
+            "picked_item": {
+                "item_id": 165,
+                "title": "Jean de Florette (1986)",
+                "score_at_pick": 0.5964647710043294
+            },
+            "state_drift_l2": 0.08342063123772438
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 165,
+                    "title": "Jean de Florette (1986)",
+                    "personalized_score": 0.6612877754954971
+                },
+                {
+                    "item_id": 1019,
+                    "title": "Die xue shuang xiong (Killer, The) (1989)",
+                    "personalized_score": 0.5242995422704384
+                },
+                {
+                    "item_id": 589,
+                    "title": "Wild Bunch, The (1969)",
+                    "personalized_score": 0.4829852816225233
+                },
+                {
+                    "item_id": 963,
+                    "title": "Some Folks Call It a Sling Blade (1993)",
+                    "personalized_score": 0.46536319045288854
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.4578517080472417
+                },
+                {
+                    "item_id": 195,
+                    "title": "Terminator, The (1984)",
+                    "personalized_score": 0.40526943242778846
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.3955536405909927
+                },
+                {
+                    "item_id": 183,
+                    "title": "Alien (1979)",
+                    "personalized_score": 0.38650580753606034
+                },
+                {
+                    "item_id": 87,
+                    "title": "Searching for Bobby Fischer (1993)",
+                    "personalized_score": 0.38026436233967953
+                },
+                {
+                    "item_id": 48,
+                    "title": "Hoop Dreams (1994)",
+                    "personalized_score": 0.36242265136677243
+                }
+            ],
+            "picked_item": {
+                "item_id": 1019,
+                "title": "Die xue shuang xiong (Killer, The) (1989)",
+                "score_at_pick": 0.5242995422704384
+            },
+            "state_drift_l2": 0.08913983311665974
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 165,
+                    "title": "Jean de Florette (1986)",
+                    "personalized_score": 0.6408295572772612
+                },
+                {
+                    "item_id": 1019,
+                    "title": "Die xue shuang xiong (Killer, The) (1989)",
+                    "personalized_score": 0.598046684083909
+                },
+                {
+                    "item_id": 589,
+                    "title": "Wild Bunch, The (1969)",
+                    "personalized_score": 0.4786058283404013
+                },
+                {
+                    "item_id": 963,
+                    "title": "Some Folks Call It a Sling Blade (1993)",
+                    "personalized_score": 0.4659767605493236
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.45427645683831014
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.4224826508165193
+                },
+                {
+                    "item_id": 195,
+                    "title": "Terminator, The (1984)",
+                    "personalized_score": 0.40282586971753626
+                },
+                {
+                    "item_id": 183,
+                    "title": "Alien (1979)",
+                    "personalized_score": 0.3996193688205456
+                },
+                {
+                    "item_id": 87,
+                    "title": "Searching for Bobby Fischer (1993)",
+                    "personalized_score": 0.3860430200817556
+                },
+                {
+                    "item_id": 48,
+                    "title": "Hoop Dreams (1994)",
+                    "personalized_score": 0.3774648872908189
+                }
+            ],
+            "picked_item": {
+                "item_id": 589,
+                "title": "Wild Bunch, The (1969)",
+                "score_at_pick": 0.4786058283404013
+            },
+            "state_drift_l2": 0.09233637422326825
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 165,
+                    "title": "Jean de Florette (1986)",
+                    "personalized_score": 0.6693207440640605
+                },
+                {
+                    "item_id": 1019,
+                    "title": "Die xue shuang xiong (Killer, The) (1989)",
+                    "personalized_score": 0.589558845100458
+                },
+                {
+                    "item_id": 589,
+                    "title": "Wild Bunch, The (1969)",
+                    "personalized_score": 0.5575531744881264
+                },
+                {
+                    "item_id": 963,
+                    "title": "Some Folks Call It a Sling Blade (1993)",
+                    "personalized_score": 0.4932950636529658
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.444172030760408
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.43523673234924387
+                },
+                {
+                    "item_id": 182,
+                    "title": "GoodFellas (1990)",
+                    "personalized_score": 0.4249790835259898
+                },
+                {
+                    "item_id": 195,
+                    "title": "Terminator, The (1984)",
+                    "personalized_score": 0.4180614124240878
+                },
+                {
+                    "item_id": 183,
+                    "title": "Alien (1979)",
+                    "personalized_score": 0.4163679790672269
+                },
+                {
+                    "item_id": 48,
+                    "title": "Hoop Dreams (1994)",
+                    "personalized_score": 0.3651699056611679
+                }
+            ],
+            "picked_item": {
+                "item_id": 963,
+                "title": "Some Folks Call It a Sling Blade (1993)",
+                "score_at_pick": 0.4932950636529658
+            },
+            "state_drift_l2": 0.09134216018499179
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 165,
+                    "title": "Jean de Florette (1986)",
+                    "personalized_score": 0.6804306017732011
+                },
+                {
+                    "item_id": 1019,
+                    "title": "Die xue shuang xiong (Killer, The) (1989)",
+                    "personalized_score": 0.5846562860048595
+                },
+                {
+                    "item_id": 589,
+                    "title": "Wild Bunch, The (1969)",
+                    "personalized_score": 0.5790326387979452
+                },
+                {
+                    "item_id": 963,
+                    "title": "Some Folks Call It a Sling Blade (1993)",
+                    "personalized_score": 0.5706093566019506
+                },
+                {
+                    "item_id": 183,
+                    "title": "Alien (1979)",
+                    "personalized_score": 0.43810749592503995
+                },
+                {
+                    "item_id": 182,
+                    "title": "GoodFellas (1990)",
+                    "personalized_score": 0.43729526588294215
+                },
+                {
+                    "item_id": 646,
+                    "title": "Once Upon a Time in the West (1969)",
+                    "personalized_score": 0.43700136605767304
+                },
+                {
+                    "item_id": 195,
+                    "title": "Terminator, The (1984)",
+                    "personalized_score": 0.4325295572027691
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.40305739319641
+                },
+                {
+                    "item_id": 521,
+                    "title": "Deer Hunter, The (1978)",
+                    "personalized_score": 0.384168515626933
+                }
+            ],
+            "picked_item": {
+                "item_id": 183,
+                "title": "Alien (1979)",
+                "score_at_pick": 0.43810749592503995
+            },
+            "state_drift_l2": 0.09492183132454912
+        }
+    ],
+    "summary": {
+        "session_name": "session_1_mf_rho_0.1",
+        "rho": 0.1,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 8,
+        "picked_sequence": [
+            "Jean de Florette (1986)",
+            "Die xue shuang xiong (Killer, The) (1989)",
+            "Wild Bunch, The (1969)",
+            "Some Folks Call It a Sling Blade (1993)",
+            "Alien (1979)"
+        ],
+        "avg_state_drift_l2": 0.09023216601743865
+    },
+    "jsonl_records": [
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 269,
+            "user_id": 3,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_1_mf_rho_0.1",
+            "round": 1,
+            "top_k": [
+                71,
+                640,
+                1063,
+                505,
+                569,
+                1097,
+                112,
+                256,
+                170,
+                547
+            ],
+            "top_k_item_ids": [
+                165,
+                1019,
+                694,
+                589,
+                963,
+                646,
+                195,
+                183,
+                48,
+                87
+            ],
+            "metrics": {
+                "Recall@10": 0.0,
+                "NDCG@10": 0.0,
+                "Diversity@10": 0.8429856886815789
+            },
+            "hyperparameters": {
+                "rho": 0.1,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 71,
+                "item_id": 165,
+                "title": "Jean de Florette (1986)",
+                "score_at_pick": 0.5964647710043294
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 8,
+                        "value": -0.48715073266941944
+                    },
+                    {
+                        "index": 9,
+                        "value": -0.4659146606058572
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.283485499281805
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 269,
+            "user_id": 3,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_1_mf_rho_0.1",
+            "round": 2,
+            "top_k": [
+                71,
+                640,
+                505,
+                569,
+                1063,
+                112,
+                1097,
+                256,
+                547,
+                170
+            ],
+            "top_k_item_ids": [
+                165,
+                1019,
+                589,
+                963,
+                694,
+                195,
+                646,
+                183,
+                87,
+                48
+            ],
+            "metrics": {
+                "Recall@10": 0.0,
+                "NDCG@10": 0.0,
+                "Diversity@10": 0.8429856886815789
+            },
+            "hyperparameters": {
+                "rho": 0.1,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 640,
+                "item_id": 1019,
+                "title": "Die xue shuang xiong (Killer, The) (1989)",
+                "score_at_pick": 0.5242995422704384
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 8,
+                        "value": -0.5082969795366495
+                    },
+                    {
+                        "index": 9,
+                        "value": -0.44737892623550163
+                    },
+                    {
+                        "index": 18,
+                        "value": -0.2986377186753803
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 269,
+            "user_id": 3,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_1_mf_rho_0.1",
+            "round": 3,
+            "top_k": [
+                71,
+                640,
+                505,
+                569,
+                1063,
+                1097,
+                112,
+                256,
+                547,
+                170
+            ],
+            "top_k_item_ids": [
+                165,
+                1019,
+                589,
+                963,
+                694,
+                646,
+                195,
+                183,
+                87,
+                48
+            ],
+            "metrics": {
+                "Recall@10": 0.0,
+                "NDCG@10": 0.0,
+                "Diversity@10": 0.8429856886815789
+            },
+            "hyperparameters": {
+                "rho": 0.1,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 505,
+                "item_id": 589,
+                "title": "Wild Bunch, The (1969)",
+                "score_at_pick": 0.4786058283404013
+            },
+            "updated_state_summary": {
+                "l2_norm": 0.9999999999999999,
+                "top_dimensions": [
+                    {
+                        "index": 8,
+                        "value": -0.49859111591337707
+                    },
+                    {
+                        "index": 9,
+                        "value": -0.44559728277052946
+                    },
+                    {
+                        "index": 18,
+                        "value": -0.3124087514252736
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 269,
+            "user_id": 3,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_1_mf_rho_0.1",
+            "round": 4,
+            "top_k": [
+                71,
+                640,
+                505,
+                569,
+                1097,
+                1063,
+                356,
+                112,
+                256,
+                170
+            ],
+            "top_k_item_ids": [
+                165,
+                1019,
+                589,
+                963,
+                646,
+                694,
+                182,
+                195,
+                183,
+                48
+            ],
+            "metrics": {
+                "Recall@10": 0.0,
+                "NDCG@10": 0.0,
+                "Diversity@10": 0.85409679979269
+            },
+            "hyperparameters": {
+                "rho": 0.1,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 569,
+                "item_id": 963,
+                "title": "Some Folks Call It a Sling Blade (1993)",
+                "score_at_pick": 0.4932950636529658
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 8,
+                        "value": -0.4674243923709139
+                    },
+                    {
+                        "index": 9,
+                        "value": -0.4576404439610468
+                    },
+                    {
+                        "index": 18,
+                        "value": -0.3422336005698301
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 269,
+            "user_id": 3,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_1_mf_rho_0.1",
+            "round": 5,
+            "top_k": [
+                71,
+                640,
+                505,
+                569,
+                256,
+                356,
+                1097,
+                112,
+                1063,
+                888
+            ],
+            "top_k_item_ids": [
+                165,
+                1019,
+                589,
+                963,
+                183,
+                182,
+                646,
+                195,
+                694,
+                521
+            ],
+            "metrics": {
+                "Recall@10": 0.0,
+                "NDCG@10": 0.0,
+                "Diversity@10": 0.8161610935441003
+            },
+            "hyperparameters": {
+                "rho": 0.1,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 256,
+                "item_id": 183,
+                "title": "Alien (1979)",
+                "score_at_pick": 0.43810749592503995
+            },
+            "updated_state_summary": {
+                "l2_norm": 0.9999999999999999,
+                "top_dimensions": [
+                    {
+                        "index": 9,
+                        "value": -0.47679821641242826
+                    },
+                    {
+                        "index": 8,
+                        "value": -0.4402795689236428
+                    },
+                    {
+                        "index": 18,
+                        "value": -0.3612389008612691
+                    }
+                ]
+            }
+        }
+    ]
+}

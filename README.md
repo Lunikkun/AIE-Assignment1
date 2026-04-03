@@ -56,7 +56,7 @@ results/
 │       ├── session_3_genre_rho_0.4.json
 │       └── summary_user3.json
 │   
-└── README.md            # This file
+└── README.md    
 
 ## How to Reproduce
 

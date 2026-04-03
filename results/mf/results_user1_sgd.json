@@ -54,64 +54,64 @@
     ],
     "mf_top10": [
         {
-            "item_id": 1449,
-            "title": "Pather Panchali (1955)",
-            "pred_score": 4.926169282909824
-        },
-        {
             "item_id": 408,
             "title": "Close Shave, A (1995)",
-            "pred_score": 4.850148230942944
-        },
-        {
-            "item_id": 114,
-            "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
-            "pred_score": 4.686072260775736
+            "pred_score": 4.569213381982359
         },
         {
             "item_id": 483,
             "title": "Casablanca (1942)",
-            "pred_score": 4.666154502176063
+            "pred_score": 4.568780818170864
         },
         {
-            "item_id": 357,
-            "title": "One Flew Over the Cuckoo's Nest (1975)",
-            "pred_score": 4.66131324172656
+            "item_id": 603,
+            "title": "Rear Window (1954)",
+            "pred_score": 4.527863373078412
         },
         {
-            "item_id": 1131,
-            "title": "Safe (1995)",
-            "pred_score": 4.609008551536387
+            "item_id": 318,
+            "title": "Schindler's List (1993)",
+            "pred_score": 4.462737025264811
         },
         {
-            "item_id": 513,
-            "title": "Third Man, The (1949)",
-            "pred_score": 4.604653619406611
+            "item_id": 64,
+            "title": "Shawshank Redemption, The (1994)",
+            "pred_score": 4.444694355920848
         },
         {
-            "item_id": 285,
-            "title": "Secrets & Lies (1996)",
-            "pred_score": 4.585844787806801
+            "item_id": 12,
+            "title": "Usual Suspects, The (1995)",
+            "pred_score": 4.442179663117727
         },
         {
-            "item_id": 100,
-            "title": "Fargo (1996)",
-            "pred_score": 4.577786174786237
+            "item_id": 480,
+            "title": "North by Northwest (1959)",
+            "pred_score": 4.411268056931891
         },
         {
-            "item_id": 474,
-            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-            "pred_score": 4.57735791981307
+            "item_id": 427,
+            "title": "To Kill a Mockingbird (1962)",
+            "pred_score": 4.409401769441725
+        },
+        {
+            "item_id": 488,
+            "title": "Sunset Blvd. (1950)",
+            "pred_score": 4.395288099659309
+        },
+        {
+            "item_id": 185,
+            "title": "Psycho (1960)",
+            "pred_score": 4.38082512015887
         }
     ],
     "metrics": {
-        "final_train_loss": 0.8349062252015023
+        "final_train_loss": 0.867902167244366
     },
     "model_params": {
-        "n_factors": 10,
-        "reg": 0.1,
+        "n_factors": 20,
+        "reg": 0.05,
         "lr": 0.01,
-        "patience": 3
+        "patience": 11
     },
     "model_type": "sgd"
 }

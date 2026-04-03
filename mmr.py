@@ -50,7 +50,7 @@ def mmr_rerank(candidates, rel_scores, genre_matrix, item_to_idx, alpha, output_
 
 
 def mmr_rerank_from_ranking(ranked_candidates, genre_matrix, item_to_idx,
-                            alpha, top_M=50, output_K=10):
+                            alpha, top_M=80, output_K=10):
 
     top_candidates = [c for c in ranked_candidates if c in item_to_idx][:top_M]
     n = len(top_candidates)

@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 class MF_SGD:
-    def __init__(self, n_users, n_items, n_factors=10, reg=0.1, lr=0.01, patience=2):
+    def __init__(self, n_users, n_items, n_factors=20, reg=0.05, lr=0.01, patience=2):
         self.n_users = n_users
         self.n_items = n_items
         self.n_factors = n_factors
@@ -41,9 +41,10 @@ class MF_SGD:
                 
                 self.bu[u] += self.lr * (err - self.reg * self.bu[u])
                 self.bi[i] += self.lr * (err - self.reg * self.bi[i])
-                
+
+                p_u_old = self.P[u].copy()
                 self.P[u] += self.lr * (err * self.Q[i] - self.reg * self.P[u])
-                self.Q[i] += self.lr * (err * self.P[u] - self.reg * self.Q[i])
+                self.Q[i] += self.lr * (err * p_u_old - self.reg * self.Q[i])
                 
                 total_loss += err ** 2
             

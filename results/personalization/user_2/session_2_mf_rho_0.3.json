@@ -1,0 +1,659 @@
+{
+    "user_id": 2,
+    "session_name": "session_2_mf_rho_0.3",
+    "rho": 0.3,
+    "update_rule": "u_{t+1} = normalize((1-rho)u_t + rho v_i)",
+    "rounds": [
+        {
+            "round": 1,
+            "slate_top10": [
+                {
+                    "item_id": 213,
+                    "title": "Room with a View, A (1986)",
+                    "personalized_score": 0.5631110708665316
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.5285416642953511
+                },
+                {
+                    "item_id": 1194,
+                    "title": "Once Were Warriors (1994)",
+                    "personalized_score": 0.48761263415433864
+                },
+                {
+                    "item_id": 297,
+                    "title": "Ulee's Gold (1997)",
+                    "personalized_score": 0.4755242435829996
+                },
+                {
+                    "item_id": 489,
+                    "title": "Notorious (1946)",
+                    "personalized_score": 0.418002190050884
+                },
+                {
+                    "item_id": 633,
+                    "title": "Christmas Carol, A (1938)",
+                    "personalized_score": 0.38392157856250714
+                },
+                {
+                    "item_id": 251,
+                    "title": "Shall We Dance? (1996)",
+                    "personalized_score": 0.38071789699637393
+                },
+                {
+                    "item_id": 484,
+                    "title": "Maltese Falcon, The (1941)",
+                    "personalized_score": 0.37400849223234844
+                },
+                {
+                    "item_id": 480,
+                    "title": "North by Northwest (1959)",
+                    "personalized_score": 0.3735167167350837
+                },
+                {
+                    "item_id": 607,
+                    "title": "Rebecca (1940)",
+                    "personalized_score": 0.3513684010477882
+                }
+            ],
+            "picked_item": {
+                "item_id": 213,
+                "title": "Room with a View, A (1986)",
+                "score_at_pick": 0.5631110708665316
+            },
+            "state_drift_l2": 0.2770311650045272
+        },
+        {
+            "round": 2,
+            "slate_top10": [
+                {
+                    "item_id": 213,
+                    "title": "Room with a View, A (1986)",
+                    "personalized_score": 0.7682292277549443
+                },
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.5309192928188646
+                },
+                {
+                    "item_id": 1194,
+                    "title": "Once Were Warriors (1994)",
+                    "personalized_score": 0.501176332215342
+                },
+                {
+                    "item_id": 297,
+                    "title": "Ulee's Gold (1997)",
+                    "personalized_score": 0.47143504227732475
+                },
+                {
+                    "item_id": 489,
+                    "title": "Notorious (1946)",
+                    "personalized_score": 0.43849452413870943
+                },
+                {
+                    "item_id": 484,
+                    "title": "Maltese Falcon, The (1941)",
+                    "personalized_score": 0.4268740985697765
+                },
+                {
+                    "item_id": 251,
+                    "title": "Shall We Dance? (1996)",
+                    "personalized_score": 0.4040232948927598
+                },
+                {
+                    "item_id": 607,
+                    "title": "Rebecca (1940)",
+                    "personalized_score": 0.40267338121771956
+                },
+                {
+                    "item_id": 480,
+                    "title": "North by Northwest (1959)",
+                    "personalized_score": 0.39737598403828966
+                },
+                {
+                    "item_id": 633,
+                    "title": "Christmas Carol, A (1938)",
+                    "personalized_score": 0.37916197780045696
+                }
+            ],
+            "picked_item": {
+                "item_id": 694,
+                "title": "Persuasion (1995)",
+                "score_at_pick": 0.5309192928188646
+            },
+            "state_drift_l2": 0.2866650555092951
+        },
+        {
+            "round": 3,
+            "slate_top10": [
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.749522724766837
+                },
+                {
+                    "item_id": 213,
+                    "title": "Room with a View, A (1986)",
+                    "personalized_score": 0.7226064737096094
+                },
+                {
+                    "item_id": 661,
+                    "title": "High Noon (1952)",
+                    "personalized_score": 0.48170664108841094
+                },
+                {
+                    "item_id": 1194,
+                    "title": "Once Were Warriors (1994)",
+                    "personalized_score": 0.4718367817556519
+                },
+                {
+                    "item_id": 297,
+                    "title": "Ulee's Gold (1997)",
+                    "personalized_score": 0.47100197319041537
+                },
+                {
+                    "item_id": 484,
+                    "title": "Maltese Falcon, The (1941)",
+                    "personalized_score": 0.45549664689223346
+                },
+                {
+                    "item_id": 607,
+                    "title": "Rebecca (1940)",
+                    "personalized_score": 0.4311653358478229
+                },
+                {
+                    "item_id": 251,
+                    "title": "Shall We Dance? (1996)",
+                    "personalized_score": 0.42245142257206436
+                },
+                {
+                    "item_id": 480,
+                    "title": "North by Northwest (1959)",
+                    "personalized_score": 0.40010421242536803
+                },
+                {
+                    "item_id": 489,
+                    "title": "Notorious (1946)",
+                    "personalized_score": 0.3590909164278648
+                }
+            ],
+            "picked_item": {
+                "item_id": 661,
+                "title": "High Noon (1952)",
+                "score_at_pick": 0.48170664108841094
+            },
+            "state_drift_l2": 0.3006506786364666
+        },
+        {
+            "round": 4,
+            "slate_top10": [
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.782520403676489
+                },
+                {
+                    "item_id": 661,
+                    "title": "High Noon (1952)",
+                    "personalized_score": 0.7204117614948136
+                },
+                {
+                    "item_id": 213,
+                    "title": "Room with a View, A (1986)",
+                    "personalized_score": 0.708336989787728
+                },
+                {
+                    "item_id": 607,
+                    "title": "Rebecca (1940)",
+                    "personalized_score": 0.4992676250101779
+                },
+                {
+                    "item_id": 297,
+                    "title": "Ulee's Gold (1997)",
+                    "personalized_score": 0.46712143670479245
+                },
+                {
+                    "item_id": 251,
+                    "title": "Shall We Dance? (1996)",
+                    "personalized_score": 0.45648552074198767
+                },
+                {
+                    "item_id": 484,
+                    "title": "Maltese Falcon, The (1941)",
+                    "personalized_score": 0.45594321515165637
+                },
+                {
+                    "item_id": 519,
+                    "title": "Treasure of the Sierra Madre, The (1948)",
+                    "personalized_score": 0.37817362262798015
+                },
+                {
+                    "item_id": 1194,
+                    "title": "Once Were Warriors (1994)",
+                    "personalized_score": 0.35466376715005415
+                },
+                {
+                    "item_id": 19,
+                    "title": "Antonia's Line (1995)",
+                    "personalized_score": 0.3386321780343062
+                }
+            ],
+            "picked_item": {
+                "item_id": 607,
+                "title": "Rebecca (1940)",
+                "score_at_pick": 0.4992676250101779
+            },
+            "state_drift_l2": 0.2957576530467495
+        },
+        {
+            "round": 5,
+            "slate_top10": [
+                {
+                    "item_id": 694,
+                    "title": "Persuasion (1995)",
+                    "personalized_score": 0.733990472685953
+                },
+                {
+                    "item_id": 607,
+                    "title": "Rebecca (1940)",
+                    "personalized_score": 0.7308726468059392
+                },
+                {
+                    "item_id": 661,
+                    "title": "High Noon (1952)",
+                    "personalized_score": 0.7247743306264973
+                },
+                {
+                    "item_id": 213,
+                    "title": "Room with a View, A (1986)",
+                    "personalized_score": 0.6906422375850096
+                },
+                {
+                    "item_id": 484,
+                    "title": "Maltese Falcon, The (1941)",
+                    "personalized_score": 0.5119711499455654
+                },
+                {
+                    "item_id": 297,
+                    "title": "Ulee's Gold (1997)",
+                    "personalized_score": 0.5017180689013321
+                },
+                {
+                    "item_id": 19,
+                    "title": "Antonia's Line (1995)",
+                    "personalized_score": 0.4364382130671242
+                },
+                {
+                    "item_id": 656,
+                    "title": "M (1931)",
+                    "personalized_score": 0.4181566902935514
+                },
+                {
+                    "item_id": 251,
+                    "title": "Shall We Dance? (1996)",
+                    "personalized_score": 0.4069900359562929
+                },
+                {
+                    "item_id": 519,
+                    "title": "Treasure of the Sierra Madre, The (1948)",
+                    "personalized_score": 0.38968242833730565
+                }
+            ],
+            "picked_item": {
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "score_at_pick": 0.5119711499455654
+            },
+            "state_drift_l2": 0.29215158203870045
+        }
+    ],
+    "summary": {
+        "session_name": "session_2_mf_rho_0.3",
+        "rho": 0.3,
+        "n_rounds": 5,
+        "first_vs_last_slate_overlap_top10": 6,
+        "picked_sequence": [
+            "Room with a View, A (1986)",
+            "Persuasion (1995)",
+            "High Noon (1952)",
+            "Rebecca (1940)",
+            "Maltese Falcon, The (1941)"
+        ],
+        "avg_state_drift_l2": 0.29045122684714775
+    },
+    "jsonl_records": [
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 229,
+            "user_id": 2,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 1,
+            "top_k": [
+                567,
+                1063,
+                843,
+                969,
+                896,
+                1028,
+                522,
+                241,
+                78,
+                965
+            ],
+            "top_k_item_ids": [
+                213,
+                694,
+                1194,
+                297,
+                489,
+                633,
+                251,
+                484,
+                480,
+                607
+            ],
+            "metrics": {
+                "Recall@10": 0.16666666666666666,
+                "NDCG@10": 0.1681522864689108,
+                "Diversity@10": 0.7762591291152273
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 567,
+                "item_id": 213,
+                "title": "Room with a View, A (1986)",
+                "score_at_pick": 0.5631110708665316
+            },
+            "updated_state_summary": {
+                "l2_norm": 0.9999999999999999,
+                "top_dimensions": [
+                    {
+                        "index": 17,
+                        "value": 0.5170724837657302
+                    },
+                    {
+                        "index": 5,
+                        "value": 0.3835980802695445
+                    },
+                    {
+                        "index": 13,
+                        "value": -0.3566969073453715
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 229,
+            "user_id": 2,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 2,
+            "top_k": [
+                567,
+                1063,
+                843,
+                969,
+                896,
+                241,
+                522,
+                965,
+                78,
+                1028
+            ],
+            "top_k_item_ids": [
+                213,
+                694,
+                1194,
+                297,
+                489,
+                484,
+                251,
+                607,
+                480,
+                633
+            ],
+            "metrics": {
+                "Recall@10": 0.16666666666666666,
+                "NDCG@10": 0.1681522864689108,
+                "Diversity@10": 0.7762591291152273
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 1063,
+                "item_id": 694,
+                "title": "Persuasion (1995)",
+                "score_at_pick": 0.5309192928188646
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 5,
+                        "value": 0.42273110266340785
+                    },
+                    {
+                        "index": 17,
+                        "value": 0.4157400585919946
+                    },
+                    {
+                        "index": 13,
+                        "value": -0.34032508739742484
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 229,
+            "user_id": 2,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 3,
+            "top_k": [
+                1063,
+                567,
+                436,
+                843,
+                969,
+                241,
+                965,
+                522,
+                78,
+                896
+            ],
+            "top_k_item_ids": [
+                694,
+                213,
+                661,
+                1194,
+                297,
+                484,
+                607,
+                251,
+                480,
+                489
+            ],
+            "metrics": {
+                "Recall@10": 0.16666666666666666,
+                "NDCG@10": 0.15457433957839825,
+                "Diversity@10": 0.8299083193901851
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 436,
+                "item_id": 661,
+                "title": "High Noon (1952)",
+                "score_at_pick": 0.48170664108841094
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 5,
+                        "value": 0.41826782404853896
+                    },
+                    {
+                        "index": 9,
+                        "value": -0.38058006222028834
+                    },
+                    {
+                        "index": 17,
+                        "value": 0.37121524535228845
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 229,
+            "user_id": 2,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 4,
+            "top_k": [
+                1063,
+                436,
+                567,
+                965,
+                969,
+                522,
+                241,
+                982,
+                843,
+                1069
+            ],
+            "top_k_item_ids": [
+                694,
+                661,
+                213,
+                607,
+                297,
+                251,
+                484,
+                519,
+                1194,
+                19
+            ],
+            "metrics": {
+                "Recall@10": 0.16666666666666666,
+                "NDCG@10": 0.1635413866202963,
+                "Diversity@10": 0.8612746513973493
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 965,
+                "item_id": 607,
+                "title": "Rebecca (1940)",
+                "score_at_pick": 0.4992676250101779
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 5,
+                        "value": 0.4155596147594654
+                    },
+                    {
+                        "index": 17,
+                        "value": 0.39681014742919757
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.36922978382975297
+                    }
+                ]
+            }
+        },
+        {
+            "record_type": "personalization_session",
+            "user_internal_idx": 229,
+            "user_id": 2,
+            "method": "EMA",
+            "method_name": "EMA",
+            "session_name": "session_2_mf_rho_0.3",
+            "round": 5,
+            "top_k": [
+                1063,
+                965,
+                436,
+                567,
+                241,
+                969,
+                1069,
+                1047,
+                522,
+                982
+            ],
+            "top_k_item_ids": [
+                694,
+                607,
+                661,
+                213,
+                484,
+                297,
+                19,
+                656,
+                251,
+                519
+            ],
+            "metrics": {
+                "Recall@10": 0.16666666666666666,
+                "NDCG@10": 0.14465249243306436,
+                "Diversity@10": 0.8856683620961352
+            },
+            "hyperparameters": {
+                "rho": 0.3,
+                "K": 10,
+                "representation": "MF"
+            },
+            "chosen_item": {
+                "internal_idx": 241,
+                "item_id": 484,
+                "title": "Maltese Falcon, The (1941)",
+                "score_at_pick": 0.5119711499455654
+            },
+            "updated_state_summary": {
+                "l2_norm": 1.0,
+                "top_dimensions": [
+                    {
+                        "index": 5,
+                        "value": 0.4550799123525415
+                    },
+                    {
+                        "index": 2,
+                        "value": -0.4255096278392986
+                    },
+                    {
+                        "index": 17,
+                        "value": 0.3385361778073533
+                    }
+                ]
+            }
+        }
+    ]
+}

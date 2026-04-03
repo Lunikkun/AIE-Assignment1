@@ -54,54 +54,54 @@
     ],
     "mf_top10": [
         {
-            "item_id": 408,
-            "title": "Close Shave, A (1995)",
-            "pred_score": 0.9999999988055652
+            "item_id": 6,
+            "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 100,
-            "title": "Fargo (1996)",
-            "pred_score": 0.9999999984746992
+            "item_id": 10,
+            "title": "Richard III (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 180,
-            "title": "Apocalypse Now (1979)",
-            "pred_score": 0.9999999982266932
+            "item_id": 12,
+            "title": "Usual Suspects, The (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 357,
-            "title": "One Flew Over the Cuckoo's Nest (1975)",
-            "pred_score": 0.9999999982045624
+            "item_id": 14,
+            "title": "Postino, Il (1994)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 1449,
-            "title": "Pather Panchali (1955)",
-            "pred_score": 0.9999999981324559
+            "item_id": 17,
+            "title": "From Dusk Till Dawn (1996)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 114,
-            "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
-            "pred_score": 0.9999999981181784
+            "item_id": 20,
+            "title": "Angels and Insects (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 285,
-            "title": "Secrets & Lies (1996)",
-            "pred_score": 0.9999999978966192
+            "item_id": 23,
+            "title": "Taxi Driver (1976)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 750,
-            "title": "Amistad (1997)",
-            "pred_score": 0.9999999977350897
+            "item_id": 24,
+            "title": "Rumble in the Bronx (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 513,
-            "title": "Third Man, The (1949)",
-            "pred_score": 0.9999999976652687
+            "item_id": 27,
+            "title": "Bad Boys (1995)",
+            "pred_score": 1.0
         },
         {
-            "item_id": 56,
-            "title": "Pulp Fiction (1994)",
-            "pred_score": 0.9999999976231266
+            "item_id": 31,
+            "title": "Crimson Tide (1995)",
+            "pred_score": 1.0
         }
     ],
     "model_type": "pw-sgd"

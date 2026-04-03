@@ -4,158 +4,158 @@
     "mmr_top10_by_alpha": {
         "alpha_0.1": [
             {
-                "item_id": 1183,
-                "title": "Cowboy Way, The (1994)",
-                "popularity": 15
+                "item_id": 615,
+                "title": "39 Steps, The (1935)",
+                "popularity": 51
             },
             {
-                "item_id": 474,
-                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-                "popularity": 151
+                "item_id": 410,
+                "title": "Kingpin (1996)",
+                "popularity": 126
             },
             {
-                "item_id": 457,
-                "title": "Free Willy 3: The Rescue (1997)",
-                "popularity": 22
+                "item_id": 880,
+                "title": "Soul Food (1997)",
+                "popularity": 48
             },
             {
-                "item_id": 361,
-                "title": "Incognito (1997)",
-                "popularity": 7
+                "item_id": 672,
+                "title": "Candyman (1992)",
+                "popularity": 50
             },
             {
-                "item_id": 502,
-                "title": "Bananas (1971)",
+                "item_id": 780,
+                "title": "Dumb & Dumber (1994)",
+                "popularity": 54
+            },
+            {
+                "item_id": 342,
+                "title": "Man Who Knew Too Little, The (1997)",
                 "popularity": 44
             },
             {
-                "item_id": 1154,
-                "title": "Alphaville (1965)",
-                "popularity": 10
+                "item_id": 1098,
+                "title": "Flirting With Disaster (1996)",
+                "popularity": 29
             },
             {
-                "item_id": 1142,
-                "title": "When We Were Kings (1996)",
-                "popularity": 34
+                "item_id": 140,
+                "title": "Homeward Bound: The Incredible Journey (1993)",
+                "popularity": 49
             },
             {
-                "item_id": 647,
-                "title": "Ran (1985)",
-                "popularity": 57
-            },
-            {
-                "item_id": 208,
-                "title": "Young Frankenstein (1974)",
-                "popularity": 156
-            },
-            {
-                "item_id": 1163,
-                "title": "Portrait of a Lady, The (1996)",
+                "item_id": 253,
+                "title": "Pillow Book, The (1995)",
                 "popularity": 21
+            },
+            {
+                "item_id": 898,
+                "title": "Postman, The (1997)",
+                "popularity": 51
             }
         ],
         "alpha_0.4": [
             {
-                "item_id": 1183,
-                "title": "Cowboy Way, The (1994)",
-                "popularity": 15
+                "item_id": 615,
+                "title": "39 Steps, The (1935)",
+                "popularity": 51
             },
             {
-                "item_id": 474,
-                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-                "popularity": 151
+                "item_id": 410,
+                "title": "Kingpin (1996)",
+                "popularity": 126
             },
             {
-                "item_id": 457,
-                "title": "Free Willy 3: The Rescue (1997)",
-                "popularity": 22
+                "item_id": 880,
+                "title": "Soul Food (1997)",
+                "popularity": 48
             },
             {
-                "item_id": 361,
-                "title": "Incognito (1997)",
-                "popularity": 7
+                "item_id": 672,
+                "title": "Candyman (1992)",
+                "popularity": 50
             },
             {
-                "item_id": 1142,
-                "title": "When We Were Kings (1996)",
-                "popularity": 34
+                "item_id": 140,
+                "title": "Homeward Bound: The Incredible Journey (1993)",
+                "popularity": 49
             },
             {
-                "item_id": 610,
-                "title": "Gigi (1958)",
-                "popularity": 34
+                "item_id": 833,
+                "title": "Bulletproof (1996)",
+                "popularity": 42
             },
             {
-                "item_id": 502,
-                "title": "Bananas (1971)",
+                "item_id": 661,
+                "title": "High Noon (1952)",
+                "popularity": 70
+            },
+            {
+                "item_id": 201,
+                "title": "Evil Dead II (1987)",
+                "popularity": 71
+            },
+            {
+                "item_id": 342,
+                "title": "Man Who Knew Too Little, The (1997)",
                 "popularity": 44
             },
             {
-                "item_id": 206,
-                "title": "Akira (1988)",
-                "popularity": 38
-            },
-            {
-                "item_id": 647,
-                "title": "Ran (1985)",
-                "popularity": 57
-            },
-            {
-                "item_id": 208,
-                "title": "Young Frankenstein (1974)",
-                "popularity": 156
+                "item_id": 319,
+                "title": "Everyone Says I Love You (1996)",
+                "popularity": 145
             }
         ],
         "alpha_0.7": [
             {
-                "item_id": 1183,
-                "title": "Cowboy Way, The (1994)",
+                "item_id": 615,
+                "title": "39 Steps, The (1935)",
+                "popularity": 51
+            },
+            {
+                "item_id": 410,
+                "title": "Kingpin (1996)",
+                "popularity": 126
+            },
+            {
+                "item_id": 880,
+                "title": "Soul Food (1997)",
+                "popularity": 48
+            },
+            {
+                "item_id": 672,
+                "title": "Candyman (1992)",
+                "popularity": 50
+            },
+            {
+                "item_id": 140,
+                "title": "Homeward Bound: The Incredible Journey (1993)",
+                "popularity": 49
+            },
+            {
+                "item_id": 833,
+                "title": "Bulletproof (1996)",
+                "popularity": 42
+            },
+            {
+                "item_id": 661,
+                "title": "High Noon (1952)",
+                "popularity": 70
+            },
+            {
+                "item_id": 320,
+                "title": "Paradise Lost: The Child Murders at Robin Hood Hills (1996)",
                 "popularity": 15
             },
             {
-                "item_id": 474,
-                "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
-                "popularity": 151
+                "item_id": 175,
+                "title": "Brazil (1985)",
+                "popularity": 156
             },
             {
-                "item_id": 457,
-                "title": "Free Willy 3: The Rescue (1997)",
-                "popularity": 22
-            },
-            {
-                "item_id": 361,
-                "title": "Incognito (1997)",
-                "popularity": 7
-            },
-            {
-                "item_id": 1142,
-                "title": "When We Were Kings (1996)",
-                "popularity": 34
-            },
-            {
-                "item_id": 610,
-                "title": "Gigi (1958)",
-                "popularity": 34
-            },
-            {
-                "item_id": 114,
-                "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
-                "popularity": 45
-            },
-            {
-                "item_id": 351,
-                "title": "Prophecy II, The (1998)",
-                "popularity": 14
-            },
-            {
-                "item_id": 502,
-                "title": "Bananas (1971)",
-                "popularity": 44
-            },
-            {
-                "item_id": 647,
-                "title": "Ran (1985)",
-                "popularity": 57
+                "item_id": 1280,
+                "title": "Gang Related (1997)",
+                "popularity": 16
             }
         ]
     }
